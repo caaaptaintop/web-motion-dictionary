@@ -1,8 +1,8 @@
 # 公开源码来源
 
-本快照的应用源码与素材来自已部署的实现提交 `147f2a35f08e4b84de3f63333c5898cc1758be3a`。演示地址：https://motion.capx-ai.com/
+本快照的应用源码与素材对应实现提交 `dc93aaabc670a6f266c96561b50d4361c618a834`，已于2026-10-12部署至Cloudflare Worker `motion-dictionary`，版本 `dfcbd646`。演示地址：https://motion.capx-ai.com/
 
-此次公开版本包含已创建的GitHub仓库入口：https://github.com/caaaptaintop/web-motion-dictionary 。新增入口的Cloudflare发布与实际浏览器验收尚未完成；源提交标识表示已构建实现，并不表示该提交已在线部署。
+本版提供独立的全部／收藏目录，收藏可与搜索组合使用，并保留原有 `motion-stars` 存储。桌面与手机首屏右上角的GitHub图标打开源码仓库：https://github.com/caaaptaintop/web-motion-dictionary 。
 
 `src/`与演示图像保留该提交的内容。本快照增加README和MIT/第三方通知，解除构建对私人Sites配置的依赖，并将依赖内部截图/原文归档的测试改为可独立运行的生成及完整性检查。原Git历史、依赖目录、构建产物和内部交付记录不随公开快照分发。
 
