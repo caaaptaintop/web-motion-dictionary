@@ -2,7 +2,7 @@
 
 “弹簧”“视差”“共享元素转场”看过名字，仍然很难判断它们在页面上怎么动。网页动效辞典把这些术语做成可操作的演示：选一个场景，调节参数，比较变化，再把当前选择生成完整提示词。
 
-[打开在线演示](https://motion.capx-ai.com/)
+[打开在线演示](https://motion.capx-ai.com/) · [GitHub 源码](https://github.com/caaaptaintop/web-motion-dictionary)
 
 ## 怎么用
 

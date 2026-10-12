@@ -432,3 +432,11 @@ a.source-hover-card{text-decoration:none}
 .technology-group h4{font-size:12px;font-weight:500;line-height:1.5;color:#637087;margin:0 0 7px}
 .technology-badges{display:flex;flex-wrap:wrap;gap:7px}
 .technology-badges>span{display:inline-block;max-width:100%;padding:5px 8px;border-radius:5px;background:#edf3ff;color:#245dcc;font-size:14px;line-height:1.5;overflow-wrap:anywhere}
+
+/* Keep the source repository at the top right on desktop and mobile. */
+.inspector-heading{display:flex;align-items:center;justify-content:space-between;gap:16px;border-bottom:2px solid var(--blue);padding-bottom:20px;margin-bottom:22px}
+.inspector-heading h2{border:0;padding:0;margin:0}
+.github-link{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:40px;height:40px;border-radius:8px;color:#27364c;text-decoration:none}
+.github-link:hover{background:#edf3ff;color:var(--blue)}
+.mobile-github-link{display:none}
+@media(max-width:850px){.mobile-bar{gap:8px}.mobile-github-link{display:inline-flex}.desktop-github-link{display:none}.inspector-heading{padding-bottom:14px}}
