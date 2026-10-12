@@ -1,0 +1,17 @@
+import React,{useState,useRef,useEffect,useLayoutEffect} from 'react';
+export function useInputExperience(key,reduced){
+ const [mobile,setMobile]=useState(()=>typeof matchMedia!=='undefined'&&matchMedia('(max-width:850px),(pointer:coarse)').matches),[touchMode,setTouchMode]=useState(false),[previewing,setPreviewing]=useState(false),holding=useRef(null),origin=useRef(null),moved=useRef(false),suppressClick=useRef(false),deferredCapture=useRef(false);
+ function clear(){holding.current=null;origin.current=null;moved.current=false;suppressClick.current=false;deferredCapture.current=false}
+ useEffect(()=>{const q=matchMedia('(max-width:850px),(pointer:coarse)');const update=()=>{setMobile(q.matches);clear();setTouchMode(false);setPreviewing(false)};q.addEventListener('change',update);return()=>q.removeEventListener('change',update)},[]);
+ useLayoutEffect(()=>{clear();setTouchMode(false);setPreviewing(false)},[key,reduced]);
+ const enabled=!reduced&&(!mobile||touchMode||previewing);
+ function arm(e){holding.current=e.pointerId;origin.current={x:e.clientX,y:e.clientY};moved.current=false;suppressClick.current=false;deferredCapture.current=!!e.target.closest('button,a,[role=button]')}
+ function begin(e,allowVisualControl=false){suppressClick.current=false;if(!touchMode||reduced||e.button!==0||e.isPrimary===false||e.target.closest('input,textarea,select,[data-drag]')||!allowVisualControl&&e.target.closest('button,a'))return false;e.preventDefault();arm(e);if(!deferredCapture.current)e.currentTarget.setPointerCapture(e.pointerId);return true}
+ function adopt(e){suppressClick.current=false;if(!touchMode||reduced||e.isPrimary===false)return false;arm(e);return true}
+ function allows(e){if(touchMode&&holding.current===e.pointerId&&origin.current&&Math.hypot(e.clientX-origin.current.x,e.clientY-origin.current.y)>6){moved.current=true;if(deferredCapture.current){e.currentTarget.setPointerCapture(e.pointerId);deferredCapture.current=false}}return !reduced&&((touchMode&&holding.current===e.pointerId)||(!mobile&&!touchMode&&e.pointerType!=='touch'))}
+ function end(){if(holding.current!==null)suppressClick.current=moved.current;holding.current=null;origin.current=null;deferredCapture.current=false}
+ function captureClick(e){if(suppressClick.current&&e.detail!==0){e.preventDefault();e.stopPropagation()}suppressClick.current=false}
+ function toggle(reset){clear();setTouchMode(x=>!x);setPreviewing(false);reset?.()}
+ return {mobile,touchMode,previewing,enabled,begin,adopt,allows,end,captureClick,isHolding:()=>holding.current!==null,toggle,preview:()=>{clear();setTouchMode(false);setPreviewing(true)},style:{touchAction:touchMode?'none':'auto'},exit:()=>{clear();setTouchMode(false);setPreviewing(false)}};
+}
+export function InputExperienceControls({input,reduced,onPreview,onReset,previewLabel="播放预览",showPreviewExit=false}){function frame(e){if(input.mobile)e.currentTarget.closest('.stage')?.scrollIntoView({block:'start',behavior:'instant'})}return <div className="input-experience-controls"><button disabled={reduced} onClick={e=>{frame(e);input.preview();onPreview()}}>{previewLabel}</button><button disabled={reduced} aria-pressed={input.touchMode} onClick={e=>{const opening=!input.touchMode;input.toggle(onReset);if(opening)frame(e)}}>{input.touchMode?'退出触摸体验':'触摸体验'}</button>{showPreviewExit&&input.previewing&&<button onClick={()=>{input.exit();onReset?.()}}>结束预览</button>}{input.touchMode&&<small>拖动画面 · 完成后退出</small>}</div>}

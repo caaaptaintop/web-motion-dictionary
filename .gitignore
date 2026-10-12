@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.qa/
+qa/
+.env
+.env.*
+!.env.example
+.npmrc
+.openai/
+.wrangler/
+.DS_Store
+*.log

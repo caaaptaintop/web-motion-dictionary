@@ -1,0 +1,19 @@
+{
+  "display_name": "Adrian Punk",
+  "handle": "@AdrianPunk115",
+  "profile_url": "https://x.com/AdrianPunk115",
+  "profile_verified_at_utc": "2026-10-02T10:10:00Z",
+  "verification_method": "Opened the author link from the original X article; verified profile heading, handle, and exact post-navigation URL. Downloaded the profile photo image through its visible DOM element.",
+  "avatar_source_url": "https://pbs.twimg.com/profile_images/2074416007964495872/6dxqrywF_400x400.jpg",
+  "avatar_file_name": "adrian-punk-avatar.jpg",
+  "avatar_mime_type": "image/jpeg",
+  "avatar_dimensions": [
+    400,
+    400
+  ],
+  "avatar_sha256": "5096c8aafd386e171e7c2acd03eaf7e0a9335b63f8c25d0aca06743be0957c39",
+  "avatar_origin": "Actual current public X profile image; not generated or imitated.",
+  "visual_verification": "Yellow background, pixel-art person with dark hair, sunglasses, black clothing.",
+  "use_requested_by_user": "Show article author avatar and name beside the top-left 网页动效辞典 brand; clicking opens the author X profile.",
+  "attribution_guidance": "Present as the source author credit; do not imply the author built or endorsed the interactive site."
+}

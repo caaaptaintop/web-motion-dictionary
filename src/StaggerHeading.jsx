@@ -1,0 +1,6 @@
+import React,{useState,useRef,useLayoutEffect} from 'react';
+export function StaggerHeading({groups,duration,delay,run,playKey,reduced,onRuntimeChange}){
+ const [mode,setMode]=useState('行'),root=useRef(null);
+ useLayoutEffect(()=>{onRuntimeChange?.({granularity:mode});const nodes=[...root.current.querySelectorAll('[data-stagger-unit]')];nodes.forEach((el,i)=>{el.getAnimations().forEach(a=>a.cancel());el.animate(reduced?[{opacity:1,transform:'none'}]:[{opacity:0,transform:'translateY(24px)'},{opacity:1,transform:'none'}],{duration:reduced?1:duration,delay:reduced?0:i*delay,easing:'ease-out',fill:'both'})});return()=>nodes.forEach(el=>el.getAnimations().forEach(a=>a.cancel()))},[mode,duration,delay,run,playKey,reduced,onRuntimeChange]);
+ return <div className="source-stagger-heading" ref={root}><div className="source-granularity" role="group" aria-label="标题交错粒度">{['行','词','字'].map(m=><button key={m} aria-pressed={mode===m} onClick={()=>setMode(m)}>按{m}</button>)}</div><h3>{groups.map((words,i)=><span className="source-title-line" key={i} {...(mode==='行'?{'data-stagger-unit':true}:{})}>{mode==='行'?words.join(''):(mode==='词'?words:[...words.join('')]).map((unit,j)=><span data-stagger-unit key={j}>{unit}</span>)}</span>)}</h3></div>
+}

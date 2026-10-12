@@ -1,0 +1,4673 @@
+{
+  "schema_version": "1.0",
+  "title": "Vibe Coding 网页动效词典：来源一致性与验收清单",
+  "verified_at_utc": "2026-10-02T10:03:00Z",
+  "status": "原文文字事实已整理；不包含实现或发布",
+  "provenance": {
+    "method": "直接查看X原文的完整文章正文；基础web抓取曾返回403，cloud browser正文可读",
+    "originals_read_in_full": true,
+    "media_individually_inspected": false,
+    "copy_policy": "使用事实摘要与通用术语；不复刻完整文章或原文提示词"
+  },
+  "interpretation_rules": [
+    "主编号严格保留1–56及原题名；不得将相近或包含关系条目合并删除。",
+    "T01–T10仅为触发方式辅助ID；原文另起1–10，不能与主词条混编号。",
+    "U01–U06工具不是新增动效。B.*是未编号正文块；内部ID仅用于追踪，不声称原文有这些编号。",
+    "variants包括原文常见类型、常见用法、手感、检查清单或替代关系中的每一条列举；不是273个新主编号。",
+    "1–5为手感控制概念，6–51为动效/组件模式，52–56为UX规则；不能把全部称为彼此独立的视觉动画。",
+    "source_derived_parameter_dimensions是从正文描述抽取的概念维度，不是原文给出的完整可调API；不得替原文编造数值默认。",
+    "numeric_parameter_defaults=null表示原文未指定实现数值；示例中的三张卡、四关键词等是场景数量，不能据此声称有统一技术参数。",
+    "示例要求与变体分开：有的示例禁止循环，但同项变体仍包含循环；应按不同变体表达，不能互相抹去。",
+    "组合示例不是额外编号，可与主词条/触发建立关联。",
+    "媒体URL来源于正文可见链接；未逐个观看，不据此保证视觉、帧、时序或数值与媒体一致。",
+    "原文外的改进、扩展和实现者选值应另标，不可归入作者原文。",
+    "X侧栏、Cookie横幅、互动计数和读者回复不属于文章正文规格。"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Vibe Coding 网页动效词典（上篇）：教你准确描述页面怎么动",
+      "url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "status_id": "2099485951701721585",
+      "published_date": "2026-09-14",
+      "range": [
+        1,
+        16
+      ],
+      "end_verified": "第16项后有续篇说明、作者简介、时间和回复"
+    },
+    {
+      "id": "S2",
+      "title": "Vibe Coding 网页动效词典（中篇）：视差滚动、磁吸按钮与鼠标跟随",
+      "url": "https://x.com/AdrianPunk115/status/2099772129478869309",
+      "status_id": "2099772129478869309",
+      "published_date": "2026-09-15",
+      "range": [
+        17,
+        36
+      ],
+      "end_verified": "第36项后有组合说明、末组预告、四张历史作品卡片、作者简介、时间和回复"
+    },
+    {
+      "id": "S3",
+      "title": "Vibe Coding 网页动效词典（下篇）：组件反馈、布局过渡与页面转场",
+      "url": "https://x.com/AdrianPunk115/status/2100209733567430964",
+      "status_id": "2100209733567430964",
+      "published_date": "2026-09-16",
+      "range": [
+        37,
+        56
+      ],
+      "end_verified": "第56项后有四层组合示例、素材库方法、五张回顾卡片、作者简介、时间和回复"
+    }
+  ],
+  "source_groups": [
+    {
+      "id": "G1",
+      "source_id": "S1",
+      "source_heading": "A. 控制动画手感的五个词",
+      "range": [
+        1,
+        5
+      ],
+      "kind": "timing_and_feel"
+    },
+    {
+      "id": "G2",
+      "source_id": "S1",
+      "source_heading": "B. 内容进入和离开的八个词",
+      "range": [
+        6,
+        13
+      ],
+      "kind": "motion"
+    },
+    {
+      "id": "G3",
+      "source_id": "S1",
+      "source_heading": "C. 文字怎么出现的三个基础词",
+      "range": [
+        14,
+        16
+      ],
+      "kind": "motion"
+    },
+    {
+      "id": "G4",
+      "source_id": "S2",
+      "source_heading": "一、进阶文字动效",
+      "range": [
+        17,
+        20
+      ],
+      "kind": "motion"
+    },
+    {
+      "id": "G5",
+      "source_id": "S2",
+      "source_heading": "二、滚动与空间动效",
+      "range": [
+        21,
+        28
+      ],
+      "kind": "motion"
+    },
+    {
+      "id": "G6",
+      "source_id": "S2",
+      "source_heading": "三、鼠标与指针动效",
+      "range": [
+        29,
+        36
+      ],
+      "kind": "motion"
+    },
+    {
+      "id": "G7",
+      "source_id": "S3",
+      "source_heading": "一、组件打开、关闭与切换",
+      "range": [
+        37,
+        43
+      ],
+      "kind": "component_motion"
+    },
+    {
+      "id": "G8",
+      "source_id": "S3",
+      "source_heading": "二、数字、加载与结果反馈",
+      "range": [
+        44,
+        48
+      ],
+      "kind": "component_motion"
+    },
+    {
+      "id": "G9",
+      "source_id": "S3",
+      "source_heading": "三、布局变化与页面转场",
+      "range": [
+        49,
+        51
+      ],
+      "kind": "motion"
+    },
+    {
+      "id": "G10",
+      "source_id": "S3",
+      "source_heading": "四、第四层：UX 规则——怎样动才好用",
+      "range": [
+        52,
+        56
+      ],
+      "kind": "ux_rule"
+    }
+  ],
+  "main_items": [
+    {
+      "id": "M01",
+      "source_number": 1,
+      "exact_name": "Easing：缓动",
+      "source_id": "S1",
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "group_id": "G1",
+      "kind": "timing_and_feel",
+      "behavior_summary": "决定运动速度如何随时间变化",
+      "variants": [
+        {
+          "id": "M01.V01",
+          "summary": "Linear（匀速）",
+          "original_label": "Linear：匀速。",
+          "original_explanation": "适合进度条、持续旋转和跑马灯。"
+        },
+        {
+          "id": "M01.V02",
+          "summary": "Ease-in（起步较慢、逐渐加速；常用于离场）",
+          "original_label": "Ease-in：慢慢加速。",
+          "original_explanation": "常用于元素离开画面。"
+        },
+        {
+          "id": "M01.V03",
+          "summary": "Ease-out（起步较快、逐渐减速；常用于进入）",
+          "original_label": "Ease-out：开始较快，结束时慢下来。",
+          "original_explanation": "按钮、菜单和内容进入时很常用。"
+        },
+        {
+          "id": "M01.V04",
+          "summary": "Ease-in-out（两端慢、中段快）",
+          "original_label": "Ease-in-out：两头慢，中间快。",
+          "original_explanation": "适合来回移动和状态切换。"
+        },
+        {
+          "id": "M01.V05",
+          "summary": "Cubic-bezier（自定义曲线）",
+          "original_label": "Cubic-bezier：自定义速度曲线。",
+          "original_explanation": "用来调出更具体的品牌手感。"
+        }
+      ],
+      "example_requirements": [
+        "内容进入采用柔和ease-out",
+        "持续旋转和进度动画使用linear",
+        "不同用途不要统一一种曲线"
+      ],
+      "source_derived_parameter_dimensions": [
+        "曲线类型",
+        "自定义速度曲线"
+      ],
+      "source_qualitative_constraints": [
+        "启动及时",
+        "结束平稳"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099485951701721585/media/2099481090851557376",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M02",
+      "source_number": 2,
+      "exact_name": "Duration：时长",
+      "source_id": "S1",
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "group_id": "G1",
+      "kind": "timing_and_feel",
+      "behavior_summary": "决定单次动画持续多久",
+      "variants": [
+        {
+          "id": "M02.V01",
+          "summary": "按钮/图标/开关/按压的短时档",
+          "original_label": "短促：",
+          "original_explanation": "按钮、图标、开关、按下反馈。"
+        },
+        {
+          "id": "M02.V02",
+          "summary": "卡片/菜单/弹窗的中时档",
+          "original_label": "适中：",
+          "original_explanation": "卡片进入、菜单展开、弹窗出现。"
+        },
+        {
+          "id": "M02.V03",
+          "summary": "主视觉/揭示/转场的较慢档",
+          "original_label": "偏慢：",
+          "original_explanation": "大图揭示、品牌首屏、页面转场。"
+        }
+      ],
+      "example_requirements": [
+        "建立跨组件一致的快慢关系",
+        "操作不能因动画而等待"
+      ],
+      "source_derived_parameter_dimensions": [
+        "总时长",
+        "组件间时长关系"
+      ],
+      "source_qualitative_constraints": [
+        "短促/适中/偏慢",
+        "原文没有毫秒值"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": null,
+      "media_status": "此词条后未见独立媒体链接"
+    },
+    {
+      "id": "M03",
+      "source_number": 3,
+      "exact_name": "Delay：延迟",
+      "source_id": "S1",
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "group_id": "G1",
+      "kind": "timing_and_feel",
+      "behavior_summary": "触发与动画开始之间的等待",
+      "variants": [
+        {
+          "id": "M03.V01",
+          "summary": "标题后再显示正文",
+          "original_label": "标题出现后，正文稍晚开始。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M03.V02",
+          "summary": "遮罩变暗后再出现弹窗",
+          "original_label": "弹窗背景先变暗，弹窗内容随后出现。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M03.V03",
+          "summary": "图片完成加载再显示文字",
+          "original_label": "图片加载完成后，文字再显现。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M03.V04",
+          "summary": "页面转场结束再播放内部内容",
+          "original_label": "页面转场结束后，再播放新页面内容。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "首屏按标题→说明→按钮入场",
+        "延迟用于层级而非拖慢操作"
+      ],
+      "source_derived_parameter_dimensions": [
+        "启动延迟",
+        "先后顺序"
+      ],
+      "source_qualitative_constraints": [
+        "短暂",
+        "不能让用户明显等待"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099485951701721585/media/2099481093753974784",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M04",
+      "source_number": 4,
+      "exact_name": "Stagger：交错出现",
+      "source_id": "S1",
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "group_id": "G1",
+      "kind": "timing_and_feel",
+      "behavior_summary": "一组元素的启动时间相互错开",
+      "variants": [
+        {
+          "id": "M04.V01",
+          "summary": "卡片从左到右",
+          "original_label": "卡片从左到右依次出现。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M04.V02",
+          "summary": "列表从上到下",
+          "original_label": "列表从上到下依次出现。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M04.V03",
+          "summary": "菜单逐项展开",
+          "original_label": "导航菜单逐项展开。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M04.V04",
+          "summary": "标题按行/词/字出现",
+          "original_label": "标题按行、按词或按字符出现。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M04.V05",
+          "summary": "图表柱依次增长",
+          "original_label": "数据柱按照顺序增长。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "六张卡片按从左到右再从上到下的阅读顺序出现",
+        "整体连贯"
+      ],
+      "source_derived_parameter_dimensions": [
+        "相邻间隔",
+        "排序方向",
+        "分组粒度"
+      ],
+      "source_qualitative_constraints": [
+        "间隔很短",
+        "连贯轻快"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099485951701721585/media/2099481091010908160",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看",
+      "terminology_aliases": [
+        "staggered reveal",
+        "stagger children",
+        "sequential entrance",
+        "cascade animation"
+      ]
+    },
+    {
+      "id": "M05",
+      "source_number": 5,
+      "exact_name": "Spring：弹簧动画",
+      "source_id": "S1",
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "group_id": "G1",
+      "kind": "timing_and_feel",
+      "behavior_summary": "表现惯性、重量和回弹",
+      "variants": [
+        {
+          "id": "M05.V01",
+          "summary": "少量回弹",
+          "original_label": "少量回弹：",
+          "original_explanation": "越过终点一点，很快停稳。"
+        },
+        {
+          "id": "M05.V02",
+          "summary": "偏硬快速响应",
+          "original_label": "偏硬：",
+          "original_explanation": "响应快，适合按钮和开关。"
+        },
+        {
+          "id": "M05.V03",
+          "summary": "偏软柔和移动",
+          "original_label": "偏软：",
+          "original_explanation": "移动柔和，适合卡片和拖拽回位。"
+        },
+        {
+          "id": "M05.V04",
+          "summary": "明显往复的果冻感",
+          "original_label": "果冻感：",
+          "original_explanation": "来回弹动明显，只适合少量趣味页面。"
+        }
+      ],
+      "example_requirements": [
+        "弹窗采用微量回弹后快速稳定",
+        "不做夸张果冻效果"
+      ],
+      "source_derived_parameter_dimensions": [
+        "Stiffness",
+        "Damping",
+        "Mass",
+        "Initial velocity"
+      ],
+      "source_qualitative_constraints": [
+        "微量回弹",
+        "快速停稳",
+        "未给四参数数值"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099485951701721585/media/2099481105565188096",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看",
+      "explicit_parameter_names": [
+        "Stiffness",
+        "Damping",
+        "Mass",
+        "Initial velocity"
+      ]
+    },
+    {
+      "id": "M06",
+      "source_number": 6,
+      "exact_name": "Fade in / Fade out：淡入与淡出",
+      "source_id": "S1",
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "group_id": "G2",
+      "kind": "motion",
+      "behavior_summary": "通过透明度显隐",
+      "variants": [
+        {
+          "id": "M06.V01",
+          "summary": "页面内容淡入",
+          "original_label": "页面内容淡入。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M06.V02",
+          "summary": "弹窗背景淡入",
+          "original_label": "弹窗背景淡入。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M06.V03",
+          "summary": "气泡显隐",
+          "original_label": "提示气泡淡入淡出。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M06.V04",
+          "summary": "换图时旧图淡出",
+          "original_label": "图片切换时旧图淡出。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M06.V05",
+          "summary": "Toast停留后淡出",
+          "original_label": "Toast 提示停留后淡出。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "标题先于正文出现",
+        "关闭弹窗比打开更快",
+        "避免所有元素同时显示"
+      ],
+      "source_derived_parameter_dimensions": [
+        "透明度",
+        "入场/离场时长",
+        "先后关系"
+      ],
+      "source_qualitative_constraints": [
+        "柔和入场",
+        "更快离场"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099485951701721585/media/2099481107561697281",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M07",
+      "source_number": 7,
+      "exact_name": "Crossfade：交叉淡化",
+      "source_id": "S1",
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "group_id": "G2",
+      "kind": "motion",
+      "behavior_summary": "旧内容隐去与新内容显现短时重叠",
+      "variants": [
+        {
+          "id": "M07.V01",
+          "summary": "两图互换",
+          "original_label": "两张图片交叉淡化。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M07.V02",
+          "summary": "标签内容互换",
+          "original_label": "标签页内容切换。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M07.V03",
+          "summary": "产品配色预览互换",
+          "original_label": "产品配色预览切换。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M07.V04",
+          "summary": "背景图或颜色互换",
+          "original_label": "背景图或背景颜色渐变切换。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M07.V05",
+          "summary": "音乐封面与播放信息互换",
+          "original_label": "音乐封面和播放信息更新。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "标签页在相同位置交叉淡化",
+        "容器高度稳定",
+        "快速切换取消旧动画"
+      ],
+      "source_derived_parameter_dimensions": [
+        "重叠时序",
+        "透明度",
+        "容器尺寸变化"
+      ],
+      "source_qualitative_constraints": [
+        "连贯",
+        "不突然跳高"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099485951701721585/media/2099481108048158720",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M08",
+      "source_number": 8,
+      "exact_name": "Slide in / Slide out：滑入与滑出",
+      "source_id": "S1",
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "group_id": "G2",
+      "kind": "motion",
+      "behavior_summary": "以位置变化表达进出方向",
+      "variants": [
+        {
+          "id": "M08.V01",
+          "summary": "Slide up",
+          "original_label": "Slide up：",
+          "original_explanation": "从下方进入。"
+        },
+        {
+          "id": "M08.V02",
+          "summary": "Slide down",
+          "original_label": "Slide down：",
+          "original_explanation": "从上方展开。"
+        },
+        {
+          "id": "M08.V03",
+          "summary": "Slide from left",
+          "original_label": "Slide from left：",
+          "original_explanation": "从左侧进入。"
+        },
+        {
+          "id": "M08.V04",
+          "summary": "Slide from right",
+          "original_label": "Slide from right：",
+          "original_explanation": "从右侧进入。"
+        },
+        {
+          "id": "M08.V05",
+          "summary": "Drawer slide",
+          "original_label": "Drawer slide：",
+          "original_explanation": "抽屉菜单滑入。"
+        }
+      ],
+      "example_requirements": [
+        "手机菜单从右进入并原向退出",
+        "章节标题小幅上移入场"
+      ],
+      "source_derived_parameter_dimensions": [
+        "方向",
+        "位移",
+        "进入/退出关系"
+      ],
+      "source_qualitative_constraints": [
+        "位移克制",
+        "方向符合组件位置"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099485951701721585/media/2099481109126131712",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M09",
+      "source_number": 9,
+      "exact_name": "Scale in / Scale out：缩放进入与离开",
+      "source_id": "S1",
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "group_id": "G2",
+      "kind": "motion",
+      "behavior_summary": "通过尺寸变化表达出现、强调、关闭",
+      "variants": [
+        {
+          "id": "M09.V01",
+          "summary": "弹窗由小恢复",
+          "original_label": "弹窗从小到正常尺寸。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M09.V02",
+          "summary": "按钮按下缩小",
+          "original_label": "按钮按下时轻微缩小。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M09.V03",
+          "summary": "缩略图扩大",
+          "original_label": "图片从缩略图放大。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M09.V04",
+          "summary": "成功图标弹出",
+          "original_label": "成功图标弹出。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M09.V05",
+          "summary": "菜单从触发点展开",
+          "original_label": "菜单从触发点展开。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "弹窗缩放结合淡入",
+        "关闭时快速缩小并淡出",
+        "按钮只有轻微按压缩放"
+      ],
+      "source_derived_parameter_dimensions": [
+        "缩放大小",
+        "变换起点",
+        "透明度",
+        "时长"
+      ],
+      "source_qualitative_constraints": [
+        "按钮变化轻微",
+        "离场快速"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099485951701721585/media/2099481120131960832",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M10",
+      "source_number": 10,
+      "exact_name": "Blur reveal：模糊显现",
+      "source_id": "S1",
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "group_id": "G2",
+      "kind": "motion",
+      "behavior_summary": "模糊强度下降至清晰，可叠加显隐位移",
+      "variants": [
+        {
+          "id": "M10.V01",
+          "summary": "标题由模糊变清晰",
+          "original_label": "标题从模糊变清晰。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M10.V02",
+          "summary": "图片加载后解除模糊",
+          "original_label": "图片加载完成后去除模糊。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M10.V03",
+          "summary": "多行文字依次聚焦",
+          "original_label": "多行文字依次聚焦。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M10.V04",
+          "summary": "背景恢复清楚",
+          "original_label": "背景从虚化状态恢复清楚。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M10.V05",
+          "summary": "旧页面逐渐失焦",
+          "original_label": "页面切换时旧内容逐渐失焦。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "首屏标题轻微模糊→清晰、淡入和轻移",
+        "正文保持稳定",
+        "仅少量重点使用"
+      ],
+      "source_derived_parameter_dimensions": [
+        "模糊程度",
+        "透明度",
+        "位移",
+        "顺序"
+      ],
+      "source_qualitative_constraints": [
+        "轻微",
+        "少量重点区域"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099485951701721585/media/2099481125056114688",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M11",
+      "source_number": 11,
+      "exact_name": "Clip-path reveal：裁剪揭示",
+      "source_id": "S1",
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "group_id": "G2",
+      "kind": "motion",
+      "behavior_summary": "改变裁剪范围而非移动被展示内容",
+      "variants": [
+        {
+          "id": "M11.V01",
+          "summary": "左→右",
+          "original_label": "从左到右展开。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M11.V02",
+          "summary": "下→上",
+          "original_label": "从下到上露出。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M11.V03",
+          "summary": "中心→两侧",
+          "original_label": "从中央向两侧打开。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M11.V04",
+          "summary": "圆形向外扩张",
+          "original_label": "圆形区域向外扩张。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M11.V05",
+          "summary": "多边形变成完整矩形",
+          "original_label": "多边形裁剪逐渐变成完整矩形。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "主视觉图从左向右被揭示",
+        "图片本体稳定",
+        "不额外旋转或夸张缩放"
+      ],
+      "source_derived_parameter_dimensions": [
+        "裁剪形状",
+        "方向",
+        "可见范围"
+      ],
+      "source_qualitative_constraints": [
+        "平滑",
+        "干净"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099485951701721585/media/2099481124091342848",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M12",
+      "source_number": 12,
+      "exact_name": "Mask reveal：蒙版显现",
+      "source_id": "S1",
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "group_id": "G2",
+      "kind": "motion",
+      "behavior_summary": "以蒙版透明度或纹理控制可见区域",
+      "variants": [
+        {
+          "id": "M12.V01",
+          "summary": "渐变横扫",
+          "original_label": "渐变蒙版从一侧扫过。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M12.V02",
+          "summary": "光线后显字",
+          "original_label": "光线扫过后露出文字。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M12.V03",
+          "summary": "墨迹/笔刷露图",
+          "original_label": "墨迹或笔刷形状揭示图片。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M12.V04",
+          "summary": "噪点消散",
+          "original_label": "噪点逐渐消散。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M12.V05",
+          "summary": "柔边圆形扩散",
+          "original_label": "柔边圆形区域向外扩散。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "主视觉通过柔和渐变从中央向外显现",
+        "避免硬矩形边界"
+      ],
+      "source_derived_parameter_dimensions": [
+        "蒙版形状/纹理",
+        "渐变",
+        "软边",
+        "方向"
+      ],
+      "source_qualitative_constraints": [
+        "柔和",
+        "自然边缘"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099485951701721585/media/2099481124959608833",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看",
+      "distinction": "Clip-path偏明确几何边界；Mask可用渐变、纹理和柔边。"
+    },
+    {
+      "id": "M13",
+      "source_number": 13,
+      "exact_name": "Wipe transition：擦除转场",
+      "source_id": "S1",
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "group_id": "G2",
+      "kind": "motion",
+      "behavior_summary": "遮罩或画面扫过并连接两段内容",
+      "variants": [
+        {
+          "id": "M13.V01",
+          "summary": "左→右",
+          "original_label": "从左向右擦过。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M13.V02",
+          "summary": "上→下",
+          "original_label": "从上向下覆盖。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M13.V03",
+          "summary": "两侧合拢",
+          "original_label": "两个色块从两侧合拢。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M13.V04",
+          "summary": "对角方向",
+          "original_label": "对角线扫过。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M13.V05",
+          "summary": "圆形覆盖全屏",
+          "original_label": "圆形区域扩张覆盖全屏。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "章节切换以纯色色幕横扫遮住旧内容后带出新内容",
+        "快速导航允许跳过"
+      ],
+      "source_derived_parameter_dimensions": [
+        "方向",
+        "遮罩形状/颜色",
+        "遮盖与替换时序"
+      ],
+      "source_qualitative_constraints": [
+        "清楚利落"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099485951701721585/media/2099481131079155712",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M14",
+      "source_number": 14,
+      "exact_name": "Text reveal：文字显现",
+      "source_id": "S1",
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "group_id": "G3",
+      "kind": "motion",
+      "behavior_summary": "文字入场总类，可按不同粒度和显隐方法组合",
+      "variants": [
+        {
+          "id": "M14.V01",
+          "summary": "Line reveal",
+          "original_label": "Line reveal：按行显现。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M14.V02",
+          "summary": "Word reveal",
+          "original_label": "Word reveal：按词显现。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M14.V03",
+          "summary": "Character reveal",
+          "original_label": "Character reveal：按字符显现。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M14.V04",
+          "summary": "Masked text reveal",
+          "original_label": "Masked text reveal：文字从裁剪窗口中出现。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M14.V05",
+          "summary": "Blur text reveal",
+          "original_label": "Blur text reveal：文字从模糊变清晰。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "主标题每行从各自裁剪容器向上显现并轻微淡入",
+        "正文仅普通淡入"
+      ],
+      "source_derived_parameter_dimensions": [
+        "行/词/字粒度",
+        "裁剪",
+        "透明度",
+        "模糊",
+        "位移"
+      ],
+      "source_qualitative_constraints": [
+        "正文尽快稳定",
+        "优先保证阅读"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099485951701721585/media/2099481135671873536",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看",
+      "contains_or_overlaps": [
+        "M15",
+        "M16",
+        "M17"
+      ]
+    },
+    {
+      "id": "M15",
+      "source_number": 15,
+      "exact_name": "Line reveal：按行显现",
+      "source_id": "S1",
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "group_id": "G3",
+      "kind": "motion",
+      "behavior_summary": "保持整行语句依序显现",
+      "variants": [
+        {
+          "id": "M15.V01",
+          "summary": "多行依次上移",
+          "original_label": "多行标题从下向上依次出现。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M15.V02",
+          "summary": "每行从裁剪窗升起",
+          "original_label": "每行从裁剪窗口中升起。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M15.V03",
+          "summary": "先清晰当前行再呈现下一行",
+          "original_label": "当前行清晰，下一行稍后显现。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M15.V04",
+          "summary": "轻微交错淡入",
+          "original_label": "多行文字轻微交错淡入。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "主标题按行从下方轻微进入",
+        "按阅读顺序",
+        "不拆单字"
+      ],
+      "source_derived_parameter_dimensions": [
+        "行间错峰",
+        "方向",
+        "位移",
+        "裁剪/透明度"
+      ],
+      "source_qualitative_constraints": [
+        "原文适用建议为二至五行标题，不是时长参数"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099485951701721585/media/2099481136800124928",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M16",
+      "source_number": 16,
+      "exact_name": "Word reveal：按词显现",
+      "source_id": "S1",
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "group_id": "G3",
+      "kind": "motion",
+      "behavior_summary": "按词或语义短语显现",
+      "variants": [
+        {
+          "id": "M16.V01",
+          "summary": "词依次淡入",
+          "original_label": "每个词依次淡入。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M16.V02",
+          "summary": "关键词领先",
+          "original_label": "关键词先出现，其他词随后补齐。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M16.V03",
+          "summary": "每词轻微上移",
+          "original_label": "每个词从下方轻微进入。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M16.V04",
+          "summary": "词由模糊转清晰",
+          "original_label": "词语从模糊逐渐变清晰。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "中文按语义短语分组",
+        "依次出现",
+        "关键词可小幅强调",
+        "整句快速完成"
+      ],
+      "source_derived_parameter_dimensions": [
+        "分词/短语分组",
+        "顺序",
+        "透明度",
+        "位移",
+        "模糊"
+      ],
+      "source_qualitative_constraints": [
+        "简短",
+        "快速完成",
+        "避免长段落"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099485951701721585/media/2099481135982284800",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M17",
+      "source_number": 17,
+      "exact_name": "Character reveal：按字符显现",
+      "source_id": "S2",
+      "source_url": "https://x.com/AdrianPunk115/status/2099772129478869309",
+      "group_id": "G4",
+      "kind": "motion",
+      "behavior_summary": "每个字符分别动画",
+      "variants": [
+        {
+          "id": "M17.V01",
+          "summary": "字依次淡入",
+          "original_label": "字符依次淡入。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M17.V02",
+          "summary": "字从不同高度落入",
+          "original_label": "字符从不同高度落入。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M17.V03",
+          "summary": "字旋转后归位",
+          "original_label": "字符轻微旋转后归位。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M17.V04",
+          "summary": "字从模糊恢复",
+          "original_label": "字符从模糊恢复清晰。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M17.V05",
+          "summary": "悬停时逐字响应",
+          "original_label": "鼠标经过时字符依次响应。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "主标题只给四个关键词逐字符淡入与上移",
+        "其余按行",
+        "整段快速完成"
+      ],
+      "source_derived_parameter_dimensions": [
+        "字符顺序/错峰",
+        "高度",
+        "旋转",
+        "模糊",
+        "透明度"
+      ],
+      "source_qualitative_constraints": [
+        "短标题",
+        "原文适用建议包括四至八字标题，不是统一强制长度"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099772129478869309/media/2099517711298781184",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M18",
+      "source_number": 18,
+      "exact_name": "Typewriter：打字机效果",
+      "source_id": "S2",
+      "source_url": "https://x.com/AdrianPunk115/status/2099772129478869309",
+      "group_id": "G4",
+      "kind": "motion",
+      "behavior_summary": "模拟输入过程，通常含光标",
+      "variants": [
+        {
+          "id": "M18.V01",
+          "summary": "命令行逐字",
+          "original_label": "命令行逐字输入。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M18.V02",
+          "summary": "AI回答生成",
+          "original_label": "AI 回答正在生成。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M18.V03",
+          "summary": "搜索示例自动输入",
+          "original_label": "搜索框自动输入示例。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M18.V04",
+          "summary": "短句循环输入删除",
+          "original_label": "多个短句循环打出并删除。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M18.V05",
+          "summary": "完毕后光标继续闪",
+          "original_label": "输入完成后光标继续闪烁。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "命令行输入一条短命令",
+        "完成后保持文字",
+        "不反复删除重打"
+      ],
+      "source_derived_parameter_dimensions": [
+        "输入顺序/速度",
+        "光标闪烁",
+        "循环/删除行为"
+      ],
+      "source_qualitative_constraints": [
+        "示例不循环重打",
+        "正文不应等待逐字完成"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099772129478869309/media/2099517711353348096",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M19",
+      "source_number": 19,
+      "exact_name": "Scramble text：乱码解码",
+      "source_id": "S2",
+      "source_url": "https://x.com/AdrianPunk115/status/2099772129478869309",
+      "group_id": "G4",
+      "kind": "motion",
+      "behavior_summary": "临时随机字符变为正确字符",
+      "variants": [
+        {
+          "id": "M19.V01",
+          "summary": "随机英文字组成标题",
+          "original_label": "随机英文字符逐渐组成标题。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M19.V02",
+          "summary": "数字跳动至结果",
+          "original_label": "数字快速跳动后停在最终结果。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M19.V03",
+          "summary": "悬停文字乱码",
+          "original_label": "鼠标悬停时文字短暂乱码。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M19.V04",
+          "summary": "进入页面关键词解码",
+          "original_label": "页面进入时关键词完成解码。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M19.V05",
+          "summary": "Processing→Complete",
+          "original_label": "状态从 Processing 变成 Complete。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "英文标题短暂随机后快速收敛",
+        "只播放一次",
+        "中文正文稳定"
+      ],
+      "source_derived_parameter_dimensions": [
+        "字符集",
+        "收敛速度",
+        "触发",
+        "次数"
+      ],
+      "source_qualitative_constraints": [
+        "短暂",
+        "迅速",
+        "单次"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099772129478869309/media/2099517711328149505",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M20",
+      "source_number": 20,
+      "exact_name": "Text morphing：文字变形",
+      "source_id": "S2",
+      "source_url": "https://x.com/AdrianPunk115/status/2099772129478869309",
+      "group_id": "G4",
+      "kind": "motion",
+      "behavior_summary": "一个词或字形平滑转为另一个",
+      "variants": [
+        {
+          "id": "M20.V01",
+          "summary": "职业名替换",
+          "original_label": "一个职业名称轮换成另一个。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M20.V02",
+          "summary": "Loading→Ready",
+          "original_label": "产品状态从 Loading 变化为 Ready。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M20.V03",
+          "summary": "数字单位更新",
+          "original_label": "数字和单位平滑更新。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M20.V04",
+          "summary": "同位置关键词循环",
+          "original_label": "同一位置的关键词循环替换。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M20.V05",
+          "summary": "SVG字形变换",
+          "original_label": "SVG 字形从一个形状变成另一个。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "三个短词轮换",
+        "轻微模糊与交叉淡化",
+        "容器宽度随变",
+        "悬停暂停"
+      ],
+      "source_derived_parameter_dimensions": [
+        "内容序列",
+        "模糊",
+        "透明度",
+        "宽度变化",
+        "循环/暂停"
+      ],
+      "source_qualitative_constraints": [
+        "轻微",
+        "容器不突跳"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099772129478869309/media/2099517711395274752",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M21",
+      "source_number": 21,
+      "exact_name": "Parallax scrolling：视差滚动",
+      "source_id": "S2",
+      "source_url": "https://x.com/AdrianPunk115/status/2099772129478869309",
+      "group_id": "G5",
+      "kind": "motion",
+      "behavior_summary": "景层速度差形成深度",
+      "variants": [
+        {
+          "id": "M21.V01",
+          "summary": "慢背景配普通正文",
+          "original_label": "背景移动得慢，正文正常滚动。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M21.V02",
+          "summary": "快前景慢背景",
+          "original_label": "前景装饰移动得快，背景移动得慢。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M21.V03",
+          "summary": "图片框内局部景物移动",
+          "original_label": "图片内部景物轻微移动，图片外框保持不变。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M21.V04",
+          "summary": "层反向移动",
+          "original_label": "某一层向相反方向移动，制造更明显的空间感。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M21.V05",
+          "summary": "鼠标驱动小范围视差",
+          "original_label": "鼠标移动时产生小范围视差，不依赖页面滚动。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "首屏背景最慢、中间稍快、前景标题普通滚动",
+        "手机弱化"
+      ],
+      "source_derived_parameter_dimensions": [
+        "层速度关系",
+        "方向",
+        "幅度",
+        "滚动/指针触发"
+      ],
+      "source_qualitative_constraints": [
+        "轻微",
+        "克制",
+        "手机减弱"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099772129478869309/media/2099517728176623617",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看",
+      "contains_or_overlaps": [
+        "M22"
+      ]
+    },
+    {
+      "id": "M22",
+      "source_number": 22,
+      "exact_name": "Multi-layer parallax：多层视差",
+      "source_id": "S2",
+      "source_url": "https://x.com/AdrianPunk115/status/2099772129478869309",
+      "group_id": "G5",
+      "kind": "motion",
+      "behavior_summary": "三层以上分别移动但仍组成整体",
+      "variants": [
+        {
+          "id": "M22.V01",
+          "summary": "天空山体人物植物",
+          "original_label": "天空、山体、人物和前景植物分层移动。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M22.V02",
+          "summary": "网格产品文字",
+          "original_label": "背景网格、中间产品和前景文字分层移动。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M22.V03",
+          "summary": "透明图叠加",
+          "original_label": "多张透明图片叠成具有景深的场景。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M22.V04",
+          "summary": "横纵同时位移",
+          "original_label": "不同层在横向与纵向同时产生轻微位移。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "背景/中景/前景三层",
+        "前景变化最大",
+        "所有层保持对齐"
+      ],
+      "source_derived_parameter_dimensions": [
+        "层数",
+        "各层速度/方向/范围",
+        "横纵轴"
+      ],
+      "source_qualitative_constraints": [
+        "越多层越减幅",
+        "不漂散"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099772129478869309/media/2099517728910688256",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M23",
+      "source_number": 23,
+      "exact_name": "Horizontal scroll：横向滚动",
+      "source_id": "S2",
+      "source_url": "https://x.com/AdrianPunk115/status/2099772129478869309",
+      "group_id": "G5",
+      "kind": "motion",
+      "behavior_summary": "内容横向浏览，可由纵向滚动驱动",
+      "variants": [
+        {
+          "id": "M23.V01",
+          "summary": "作品卡片横移",
+          "original_label": "作品卡片从右向左经过视口。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M23.V02",
+          "summary": "功能横向章节",
+          "original_label": "产品功能按照横向章节依次展开。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M23.V03",
+          "summary": "横向时间轴",
+          "original_label": "一条时间轴随滚动向右推进。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M23.V04",
+          "summary": "单行画廊",
+          "original_label": "图片画廊保持一行横向浏览。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M23.V05",
+          "summary": "桌面横向手机纵向",
+          "original_label": "桌面端横向叙事，手机端改回纵向列表。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "继续下滚带动四卡从右向左",
+        "区段进出自然",
+        "手机纵向列表"
+      ],
+      "source_derived_parameter_dimensions": [
+        "方向",
+        "进度映射",
+        "区段长度",
+        "卡片数"
+      ],
+      "source_qualitative_constraints": [
+        "衔接自然",
+        "手机单独简化"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099772129478869309/media/2099517728650600448",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M24",
+      "source_number": 24,
+      "exact_name": "Scroll zoom：滚动缩放",
+      "source_id": "S2",
+      "source_url": "https://x.com/AdrianPunk115/status/2099772129478869309",
+      "group_id": "G5",
+      "kind": "motion",
+      "behavior_summary": "滚动进度驱动尺寸/距离",
+      "variants": [
+        {
+          "id": "M24.V01",
+          "summary": "小卡片扩大至全屏",
+          "original_label": "首屏图片从小卡片扩展成全屏。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M24.V02",
+          "summary": "产品靠近镜头",
+          "original_label": "产品从远处逐渐靠近镜头。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M24.V03",
+          "summary": "地图定位城市",
+          "original_label": "地图从全局缩放到一个城市。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M24.V04",
+          "summary": "放大照片进入新内容",
+          "original_label": "一张照片放大后进入照片内部的下一段内容。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M24.V05",
+          "summary": "上滚原路缩小",
+          "original_label": "滚回上方时按原路径缩小。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "居中产品小图扩大至接近全屏",
+        "文字稳定",
+        "继续滚动进入详情"
+      ],
+      "source_derived_parameter_dimensions": [
+        "缩放范围",
+        "进度映射",
+        "方向",
+        "图片与文字分工"
+      ],
+      "source_qualitative_constraints": [
+        "标题清晰稳定"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099772129478869309/media/2099517727639851008",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M25",
+      "source_number": 25,
+      "exact_name": "Sticky scrollytelling：固定式滚动叙事",
+      "source_id": "S2",
+      "source_url": "https://x.com/AdrianPunk115/status/2099772129478869309",
+      "group_id": "G5",
+      "kind": "motion",
+      "behavior_summary": "区域固定期间依据滚动换内容",
+      "variants": [
+        {
+          "id": "M25.V01",
+          "summary": "左步骤右界面",
+          "original_label": "左侧步骤依次高亮，右侧界面同步切换。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M25.V02",
+          "summary": "中心产品逐个零件",
+          "original_label": "产品固定在中央，零件随章节逐个出现。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M25.V03",
+          "summary": "固定地图换路线地点",
+          "original_label": "一张地图保持不动，地点和路线持续更新。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M25.V04",
+          "summary": "长图旁解释",
+          "original_label": "长图保持固定，旁边的解释逐段推进。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M25.V05",
+          "summary": "固定背景叠加章节",
+          "original_label": "背景固定，前景章节依次覆盖或离开。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "右产品界面固定",
+        "左三段功能依次高亮",
+        "只更新对应部分",
+        "结束释放"
+      ],
+      "source_derived_parameter_dimensions": [
+        "固定区段",
+        "章节数/阈值",
+        "同步内容"
+      ],
+      "source_qualitative_constraints": [
+        "章节变化清楚",
+        "末段后恢复滚动"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099772129478869309/media/2099517741934018560",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M26",
+      "source_number": 26,
+      "exact_name": "Image sequence：图片序列滚动",
+      "source_id": "S2",
+      "source_url": "https://x.com/AdrianPunk115/status/2099772129478869309",
+      "group_id": "G5",
+      "kind": "motion",
+      "behavior_summary": "滚动位置对应连续图片帧",
+      "variants": [
+        {
+          "id": "M26.V01",
+          "summary": "产品转一圈",
+          "original_label": "产品随着滚动完成一圈旋转。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M26.V02",
+          "summary": "设备外壳拆开",
+          "original_label": "设备外壳逐步拆开，露出内部结构。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M26.V03",
+          "summary": "照片昼夜变化",
+          "original_label": "一组照片从白天变化到夜晚。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M26.V04",
+          "summary": "插画角色动作",
+          "original_label": "插画角色随滚动完成一段动作。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M26.V05",
+          "summary": "上滚反向",
+          "original_label": "滚动向上时按相反顺序倒放。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "产品连续帧正反播放",
+        "未就绪时静态主图",
+        "手机减少帧数"
+      ],
+      "source_derived_parameter_dimensions": [
+        "帧数",
+        "滚动-帧映射",
+        "方向",
+        "加载就绪状态"
+      ],
+      "source_qualitative_constraints": [
+        "顺滑",
+        "提前加载",
+        "失败有静态替代"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099772129478869309/media/2099517743506894848",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M27",
+      "source_number": 27,
+      "exact_name": "Scroll snap：滚动吸附",
+      "source_id": "S2",
+      "source_url": "https://x.com/AdrianPunk115/status/2099772129478869309",
+      "group_id": "G5",
+      "kind": "motion",
+      "behavior_summary": "停止滚动后对齐邻近目标",
+      "variants": [
+        {
+          "id": "M27.V01",
+          "summary": "整屏章节",
+          "original_label": "每次滚动对齐到一个全屏章节。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M27.V02",
+          "summary": "横卡居中",
+          "original_label": "横向卡片自动吸附到容器中央。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M27.V03",
+          "summary": "轮播停完整图片",
+          "original_label": "图片轮播停在完整图片上。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M27.V04",
+          "summary": "手机单步功能页",
+          "original_label": "手机端功能页一次显示一个步骤。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M27.V05",
+          "summary": "接近时轻吸附",
+          "original_label": "只在靠近目标时轻微吸附，保留自由滚动感。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "横向案例停止滑动后自然居中最近卡片",
+        "正文自由滚动"
+      ],
+      "source_derived_parameter_dimensions": [
+        "对齐点",
+        "方向",
+        "吸附强度/范围"
+      ],
+      "source_qualitative_constraints": [
+        "不能突然跳动",
+        "长文不强制整屏"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099772129478869309/media/2099517744257581056",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M28",
+      "source_number": 28,
+      "exact_name": "Progress indicator：滚动进度提示",
+      "source_id": "S2",
+      "source_url": "https://x.com/AdrianPunk115/status/2099772129478869309",
+      "group_id": "G5",
+      "kind": "motion",
+      "behavior_summary": "显示阅读位置与完成比例",
+      "variants": [
+        {
+          "id": "M28.V01",
+          "summary": "顶部阅读条",
+          "original_label": "页面顶部的阅读进度条。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M28.V02",
+          "summary": "章节编号1→5",
+          "original_label": "章节编号从 1 逐步更新到 5。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M28.V03",
+          "summary": "侧边目录高亮",
+          "original_label": "侧边目录跟随滚动高亮。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M28.V04",
+          "summary": "圆环填充",
+          "original_label": "圆环随着阅读进度逐渐填满。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M28.V05",
+          "summary": "横向时间轴位置",
+          "original_label": "横向时间轴标出当前位置。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "长文顶部细进度条",
+        "章节变化同步目录",
+        "不盖住正文标题"
+      ],
+      "source_derived_parameter_dimensions": [
+        "滚动位置",
+        "进度显示形态",
+        "章节阈值"
+      ],
+      "source_qualitative_constraints": [
+        "细、轻、克制"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099772129478869309/media/2099517744312180736",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M29",
+      "source_number": 29,
+      "exact_name": "Magnetic button：磁吸按钮",
+      "source_id": "S2",
+      "source_url": "https://x.com/AdrianPunk115/status/2099772129478869309",
+      "group_id": "G6",
+      "kind": "motion",
+      "behavior_summary": "靠近指针时产生吸引位移",
+      "variants": [
+        {
+          "id": "M29.V01",
+          "summary": "整按钮靠近",
+          "original_label": "整个按钮向光标方向靠近。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M29.V02",
+          "summary": "仅文字偏移",
+          "original_label": "按钮保持不动，内部文字轻微偏移。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M29.V03",
+          "summary": "圆图标靠近并扩大感应",
+          "original_label": "圆形图标靠近光标并扩大感应范围。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M29.V04",
+          "summary": "边缘柔和形变",
+          "original_label": "按钮边缘产生柔和形变。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M29.V05",
+          "summary": "离开弹性归中",
+          "original_label": "离开时带少量弹性回到中心。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "只用于主按钮",
+        "按钮和文字微移",
+        "离开回位",
+        "触屏普通反馈"
+      ],
+      "source_derived_parameter_dimensions": [
+        "感应距离",
+        "位移范围",
+        "作用层",
+        "回弹"
+      ],
+      "source_qualitative_constraints": [
+        "小幅",
+        "少量重点按钮"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099772129478869309/media/2099517757918486528",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M30",
+      "source_number": 30,
+      "exact_name": "Tilt card：立体倾斜卡片",
+      "source_id": "S2",
+      "source_url": "https://x.com/AdrianPunk115/status/2099772129478869309",
+      "group_id": "G6",
+      "kind": "motion",
+      "behavior_summary": "光标位置控制卡片角度与光照",
+      "variants": [
+        {
+          "id": "M30.V01",
+          "summary": "四向倾斜",
+          "original_label": "卡片跟随光标向四周倾斜。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M30.V02",
+          "summary": "高光随指针",
+          "original_label": "卡片表面高光跟随光标移动。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M30.V03",
+          "summary": "图文前后分层",
+          "original_label": "图片与文字产生轻微前后分层。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M30.V04",
+          "summary": "悬停抬高加透视",
+          "original_label": "悬停时卡片抬起并增加透视。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M30.V05",
+          "summary": "离开回正",
+          "original_label": "光标离开后平稳回正。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "作品卡小幅旋转",
+        "高光同步",
+        "文字清晰",
+        "离开回正",
+        "手机关闭"
+      ],
+      "source_derived_parameter_dimensions": [
+        "角度",
+        "透视",
+        "层次",
+        "高光位置",
+        "恢复"
+      ],
+      "source_qualitative_constraints": [
+        "轻微",
+        "阅读稳定"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099772129478869309/media/2099517757935218688",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M31",
+      "source_number": 31,
+      "exact_name": "Cursor follower：自定义光标跟随",
+      "source_id": "S2",
+      "source_url": "https://x.com/AdrianPunk115/status/2099772129478869309",
+      "group_id": "G6",
+      "kind": "motion",
+      "behavior_summary": "标记替代或陪伴系统指针并随场景变化",
+      "variants": [
+        {
+          "id": "M31.V01",
+          "summary": "点即刻圈延迟",
+          "original_label": "小圆点紧跟指针，大圆环延迟跟随。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M31.V02",
+          "summary": "图片上显示查看",
+          "original_label": "进入图片后显示“查看”。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M31.V03",
+          "summary": "视频上变播放",
+          "original_label": "进入视频后变成播放图标。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M31.V04",
+          "summary": "可拖区域显示拖动",
+          "original_label": "进入可拖拽区域后显示“拖动”。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M31.V05",
+          "summary": "链接上变大小色彩",
+          "original_label": "光标经过链接时改变大小和颜色。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "内点准确外环稍迟",
+        "作品图上显示查看",
+        "输入框和手机默认指针"
+      ],
+      "source_derived_parameter_dimensions": [
+        "跟随延迟",
+        "大小",
+        "颜色",
+        "语境标签"
+      ],
+      "source_qualitative_constraints": [
+        "可定位",
+        "不能迟钝或消失"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099772129478869309/media/2099517756081373184",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M32",
+      "source_number": 32,
+      "exact_name": "Cursor spotlight：光标聚光灯",
+      "source_id": "S2",
+      "source_url": "https://x.com/AdrianPunk115/status/2099772129478869309",
+      "group_id": "G6",
+      "kind": "motion",
+      "behavior_summary": "亮区随指针移动并局部揭示",
+      "variants": [
+        {
+          "id": "M32.V01",
+          "summary": "圆光晕",
+          "original_label": "圆形光晕跟随光标。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M32.V02",
+          "summary": "移动渐变中心",
+          "original_label": "渐变中心随着指针改变位置。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M32.V03",
+          "summary": "显露隐藏字",
+          "original_label": "光标经过时显示背景中的隐藏文字。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M32.V04",
+          "summary": "局部边框变亮",
+          "original_label": "聚光区域内的卡片边框变亮。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M32.V05",
+          "summary": "柔光照内容",
+          "original_label": "一束柔和光线照向当前内容。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "柔圆光照背景网格",
+        "不改正文亮度",
+        "手机静态光区"
+      ],
+      "source_derived_parameter_dimensions": [
+        "光区形状/大小",
+        "亮度",
+        "渐变中心",
+        "跟随"
+      ],
+      "source_qualitative_constraints": [
+        "柔和",
+        "平滑",
+        "不干扰正文"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099772129478869309/media/2099517758249873408",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M33",
+      "source_number": 33,
+      "exact_name": "Mouse-following eyes：鼠标跟随眼睛",
+      "source_id": "S2",
+      "source_url": "https://x.com/AdrianPunk115/status/2099772129478869309",
+      "group_id": "G6",
+      "kind": "motion",
+      "behavior_summary": "瞳孔沿指针方向在眼白内移动",
+      "variants": [
+        {
+          "id": "M33.V01",
+          "summary": "双瞳跟随",
+          "original_label": "两只瞳孔同时跟随光标。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M33.V02",
+          "summary": "多角色同看一点",
+          "original_label": "多个角色分别看向同一个位置。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M33.V03",
+          "summary": "离开回中",
+          "original_label": "光标离开页面后瞳孔回到中央。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M33.V04",
+          "summary": "点击眨眼/变表情",
+          "original_label": "点击时角色眨眼或改变表情。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M33.V05",
+          "summary": "手机静态或响应触摸",
+          "original_label": "手机端保持静态，或短暂看向触摸位置。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "范围严格限于眼白",
+        "离开页面归中",
+        "示例手机静态"
+      ],
+      "source_derived_parameter_dimensions": [
+        "瞳孔移动范围",
+        "目标点",
+        "归中",
+        "点击状态"
+      ],
+      "source_qualitative_constraints": [
+        "幅度小",
+        "不能越眼白"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099772129478869309/media/2099517772762148864",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M34",
+      "source_number": 34,
+      "exact_name": "Cursor trail：光标拖尾",
+      "source_id": "S2",
+      "source_url": "https://x.com/AdrianPunk115/status/2099772129478869309",
+      "group_id": "G6",
+      "kind": "motion",
+      "behavior_summary": "指针路径留下短时残迹",
+      "variants": [
+        {
+          "id": "M34.V01",
+          "summary": "缩小圆点串",
+          "original_label": "一串逐渐缩小的圆点。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M34.V02",
+          "summary": "柔线",
+          "original_label": "柔和的连续线条。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M34.V03",
+          "summary": "沿途小图",
+          "original_label": "光标移动时依次出现小图片。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M34.V04",
+          "summary": "高速文字/图标残影",
+          "original_label": "快速移动时产生文字或图标残影。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M34.V05",
+          "summary": "散开粒子",
+          "original_label": "粒子从路径上散开并消失。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "首屏空白处少量点缩小淡出",
+        "正文/按钮/输入框附近暂停",
+        "手机关"
+      ],
+      "source_derived_parameter_dimensions": [
+        "密度",
+        "痕迹形态",
+        "大小",
+        "消散",
+        "响应速度"
+      ],
+      "source_qualitative_constraints": [
+        "克制",
+        "不遮点击目标"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099772129478869309/media/2099517769469628416",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M35",
+      "source_number": 35,
+      "exact_name": "Pointer-reactive background：指针响应背景",
+      "source_id": "S2",
+      "source_url": "https://x.com/AdrianPunk115/status/2099772129478869309",
+      "group_id": "G6",
+      "kind": "motion",
+      "behavior_summary": "背景形态根据指针位置改变",
+      "variants": [
+        {
+          "id": "M35.V01",
+          "summary": "渐变中心缓移",
+          "original_label": "渐变中心跟随光标缓慢移动。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M35.V02",
+          "summary": "网格局部弯曲",
+          "original_label": "网格在光标附近轻微弯曲。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M35.V03",
+          "summary": "粒子避让/聚合",
+          "original_label": "粒子靠近光标时避让或聚集。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M35.V04",
+          "summary": "背景图小移",
+          "original_label": "背景图片按指针方向产生小幅位移。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M35.V05",
+          "summary": "按距离分层响应",
+          "original_label": "多层图形根据距离产生不同响应。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "近处网格弯、远处稳定",
+        "稍迟响应",
+        "停后恢复",
+        "正文按钮不动",
+        "手机静态"
+      ],
+      "source_derived_parameter_dimensions": [
+        "影响范围",
+        "距离衰减",
+        "延迟",
+        "变形/位移"
+      ],
+      "source_qualitative_constraints": [
+        "响应慢于指针",
+        "主体稳定"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099772129478869309/media/2099517775077408768",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M36",
+      "source_number": 36,
+      "exact_name": "3D object follow：3D 物体跟随",
+      "source_id": "S2",
+      "source_url": "https://x.com/AdrianPunk115/status/2099772129478869309",
+      "group_id": "G6",
+      "kind": "motion",
+      "behavior_summary": "模型/相机/灯光根据指针调整",
+      "variants": [
+        {
+          "id": "M36.V01",
+          "summary": "产品旋转",
+          "original_label": "产品模型朝光标方向轻微旋转。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M36.V02",
+          "summary": "角色头转",
+          "original_label": "3D 角色的头部跟随指针转动。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M36.V03",
+          "summary": "相机小幅环绕",
+          "original_label": "相机根据光标位置绕物体小幅移动。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M36.V04",
+          "summary": "灯光方向变化",
+          "original_label": "模型的灯光方向随指针变化。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M36.V05",
+          "summary": "离开回正",
+          "original_label": "光标离开后物体缓慢回到正面。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "模型仅小幅且保留正面",
+        "离开回正",
+        "加载前静图",
+        "手机轻缓自转"
+      ],
+      "source_derived_parameter_dimensions": [
+        "旋转/位移",
+        "视角",
+        "灯光方向",
+        "回位"
+      ],
+      "source_qualitative_constraints": [
+        "小幅",
+        "主体正面可见"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2099772129478869309/media/2099517775056355328",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M37",
+      "source_number": 37,
+      "exact_name": "Accordion：折叠展开",
+      "source_id": "S3",
+      "source_url": "https://x.com/AdrianPunk115/status/2100209733567430964",
+      "group_id": "G7",
+      "kind": "component_motion",
+      "behavior_summary": "点击标题开关纵向区域",
+      "variants": [
+        {
+          "id": "M37.V01",
+          "summary": "FAQ答案",
+          "original_label": "问答列表向下展开答案。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M37.V02",
+          "summary": "设置更多项",
+          "original_label": "设置面板展开更多选项。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M37.V03",
+          "summary": "侧栏子目录",
+          "original_label": "侧边栏展开二级目录。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M37.V04",
+          "summary": "详情补充",
+          "original_label": "“查看详情”打开一段补充内容。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M37.V05",
+          "summary": "加号变减号",
+          "original_label": "加号在展开后变成减号。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "下方内容平稳让位",
+        "原路关闭",
+        "打开项高亮",
+        "符号同步"
+      ],
+      "source_derived_parameter_dimensions": [
+        "高度变化",
+        "展开/收起",
+        "指示符",
+        "高亮"
+      ],
+      "source_qualitative_constraints": [
+        "标题始终可识别"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2100209733567430964/media/2099702352852983808",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M38",
+      "source_number": 38,
+      "exact_name": "Dropdown / Tooltip / Popover：锚定浮层",
+      "source_id": "S3",
+      "source_url": "https://x.com/AdrianPunk115/status/2100209733567430964",
+      "group_id": "G7",
+      "kind": "component_motion",
+      "behavior_summary": "浮层出现位置锚定触发点；Tooltip短说明、Popover可操作、Dropdown选项、Mega menu多列",
+      "variants": [
+        {
+          "id": "M38.V01",
+          "summary": "头像账号菜单",
+          "original_label": "点击头像后展开账号菜单。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M38.V02",
+          "summary": "导航多列菜单",
+          "original_label": "悬停导航项后显示多列菜单。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M38.V03",
+          "summary": "选择列表",
+          "original_label": "选择框向下打开选项列表。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M38.V04",
+          "summary": "图标短提示",
+          "original_label": "图标旁边出现一条短提示。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M38.V05",
+          "summary": "有按钮的浮层",
+          "original_label": "点击按钮后打开带操作项的小浮层。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M38.V06",
+          "summary": "空间不够向上",
+          "original_label": "空间不足时改为向上展开。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "导航悬停/键盘聚焦打开并淡入",
+        "离开区域关闭",
+        "图标用Tooltip、操作用Popover",
+        "手机点击"
+      ],
+      "source_derived_parameter_dimensions": [
+        "锚点",
+        "展开方向",
+        "内容类型",
+        "触发/离开条件"
+      ],
+      "source_qualitative_constraints": [
+        "从触发点附近进入并回到该处",
+        "重要操作不藏于Tooltip"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2100209733567430964/media/2099702352844636160",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看",
+      "named_subtypes": [
+        "Dropdown",
+        "Tooltip",
+        "Popover",
+        "Mega menu"
+      ]
+    },
+    {
+      "id": "M39",
+      "source_number": 39,
+      "exact_name": "Modal / Dialog transition：弹窗过渡",
+      "source_id": "S3",
+      "source_url": "https://x.com/AdrianPunk115/status/2100209733567430964",
+      "group_id": "G7",
+      "kind": "component_motion",
+      "behavior_summary": "遮罩与弹窗按序进入，关闭反向",
+      "variants": [
+        {
+          "id": "M39.V01",
+          "summary": "居中确认框轻放大",
+          "original_label": "确认弹窗在画面中央轻微放大。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M39.V02",
+          "summary": "登录框从触发点",
+          "original_label": "登录弹窗从触发按钮附近出现。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M39.V03",
+          "summary": "缩略图扩展预览",
+          "original_label": "图片预览从缩略图扩展到中央。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M39.V04",
+          "summary": "警告快速出现稳定",
+          "original_label": "警告弹窗快速出现并保持稳定。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M39.V05",
+          "summary": "手机从底部",
+          "original_label": "手机端弹窗从底部进入。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "点击删除后先遮罩后中央弹窗淡入/缩放",
+        "关闭反序",
+        "锁背景并将焦点置入"
+      ],
+      "source_derived_parameter_dimensions": [
+        "遮罩明暗",
+        "位置",
+        "透明度",
+        "缩放",
+        "先后"
+      ],
+      "source_qualitative_constraints": [
+        "背景弱化",
+        "焦点在弹窗"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2100209733567430964/media/2099702352894930944",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M40",
+      "source_number": 40,
+      "exact_name": "Drawer / Bottom sheet：抽屉与底部面板",
+      "source_id": "S3",
+      "source_url": "https://x.com/AdrianPunk115/status/2100209733567430964",
+      "group_id": "G7",
+      "kind": "component_motion",
+      "behavior_summary": "面板从边缘滑入并保留方位",
+      "variants": [
+        {
+          "id": "M40.V01",
+          "summary": "右侧购物车",
+          "original_label": "购物车从右侧滑入。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M40.V02",
+          "summary": "左侧手机导航",
+          "original_label": "手机导航从左侧打开。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M40.V03",
+          "summary": "边缘筛选",
+          "original_label": "筛选条件从页面边缘进入。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M40.V04",
+          "summary": "底部分享",
+          "original_label": "分享选项从手机底部升起。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M40.V05",
+          "summary": "下拖关闭",
+          "original_label": "向下拖动关闭底部面板。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "购物车从右进入、右退回",
+        "配遮罩",
+        "手机接近全屏并支持下滑关闭"
+      ],
+      "source_derived_parameter_dimensions": [
+        "边缘方向",
+        "覆盖尺寸",
+        "位移",
+        "拖拽关闭"
+      ],
+      "source_qualitative_constraints": [
+        "进入与离开同侧"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2100209733567430964/media/2099702352848809984",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M41",
+      "source_number": 41,
+      "exact_name": "Tab transition：标签页切换",
+      "source_id": "S3",
+      "source_url": "https://x.com/AdrianPunk115/status/2100209733567430964",
+      "group_id": "G7",
+      "kind": "component_motion",
+      "behavior_summary": "选中指示与内容衔接变化",
+      "variants": [
+        {
+          "id": "M41.V01",
+          "summary": "下划线移动",
+          "original_label": "下划线滑到新的标签。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M41.V02",
+          "summary": "胶囊底色移动",
+          "original_label": "胶囊背景在标签之间移动。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M41.V03",
+          "summary": "内容交叉淡化",
+          "original_label": "内容交叉淡化。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M41.V04",
+          "summary": "内容横向进入",
+          "original_label": "新内容按左右方向滑入。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M41.V05",
+          "summary": "加载后换内容",
+          "original_label": "数据加载完成后再切换内容。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "点击先移动指示器再交叉淡化内容",
+        "高度平稳变化"
+      ],
+      "source_derived_parameter_dimensions": [
+        "指示器形态/位置",
+        "内容方向/透明度",
+        "高度"
+      ],
+      "source_qualitative_constraints": [
+        "短距离",
+        "不能让下面内容突跳"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2100209733567430964/media/2099702364014055424",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M42",
+      "source_number": 42,
+      "exact_name": "Carousel / Slider transition：轮播与滑块切换",
+      "source_id": "S3",
+      "source_url": "https://x.com/AdrianPunk115/status/2100209733567430964",
+      "group_id": "G7",
+      "kind": "component_motion",
+      "behavior_summary": "固定区域切换图片/卡片",
+      "variants": [
+        {
+          "id": "M42.V01",
+          "summary": "左右换图",
+          "original_label": "图片左右滑动切换。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M42.V02",
+          "summary": "两图淡化",
+          "original_label": "两张图片交叉淡化。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M42.V03",
+          "summary": "中央大两侧小",
+          "original_label": "中央卡片放大，两侧卡片缩小。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M42.V04",
+          "summary": "拖完吸附",
+          "original_label": "拖拽后吸附到最近一张。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M42.V05",
+          "summary": "自动播且操作后暂停",
+          "original_label": "自动播放，用户操作后暂停。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "箭头或横拖让旧卡左出新卡右入并居中",
+        "显示位置",
+        "手动操作后暂停"
+      ],
+      "source_derived_parameter_dimensions": [
+        "方向",
+        "切换样式",
+        "缩放层级",
+        "吸附",
+        "自动播放"
+      ],
+      "source_qualitative_constraints": [
+        "可见上一/下一与位置",
+        "不能仅自动播放"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2100209733567430964/media/2099702364416745472",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M43",
+      "source_number": 43,
+      "exact_name": "Toast / Snackbar：轻提示消息",
+      "source_id": "S3",
+      "source_url": "https://x.com/AdrianPunk115/status/2100209733567430964",
+      "group_id": "G7",
+      "kind": "component_motion",
+      "behavior_summary": "不打断任务的短时状态消息",
+      "variants": [
+        {
+          "id": "M43.V01",
+          "summary": "顶/底滑入",
+          "original_label": "从页面顶部或底部滑入。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M43.V02",
+          "summary": "角落淡入停留",
+          "original_label": "在角落淡入并停留。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M43.V03",
+          "summary": "消息堆叠",
+          "original_label": "多条消息依次堆叠。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M43.V04",
+          "summary": "撤销按钮",
+          "original_label": "带一个撤销按钮。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M43.V05",
+          "summary": "错误保留更久",
+          "original_label": "错误消息保持更久，等待用户处理。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "复制完成后底部轻移淡入、停留、淡出",
+        "连续操作更新同一条"
+      ],
+      "source_derived_parameter_dimensions": [
+        "位置",
+        "位移",
+        "透明度",
+        "停留时间",
+        "堆叠/更新"
+      ],
+      "source_qualitative_constraints": [
+        "短暂但关键错误不能一闪而过"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2100209733567430964/media/2099702365867941888",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M44",
+      "source_number": 44,
+      "exact_name": "Animated counter / Odometer：数字计数与翻牌",
+      "source_id": "S3",
+      "source_url": "https://x.com/AdrianPunk115/status/2100209733567430964",
+      "group_id": "G8",
+      "kind": "component_motion",
+      "behavior_summary": "数字连续变化或逐位滚动",
+      "variants": [
+        {
+          "id": "M44.V01",
+          "summary": "零→结果",
+          "original_label": "数字从零增长到最终值。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M44.V02",
+          "summary": "旧值→新值",
+          "original_label": "旧数值平滑更新到新数值。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M44.V03",
+          "summary": "逐位翻动",
+          "original_label": "每一位数字上下翻动。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M44.V04",
+          "summary": "百分比同步进度条",
+          "original_label": "百分比与进度条同步增长。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M44.V05",
+          "summary": "金额增减标记",
+          "original_label": "金额变化时短暂标出增减方向。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "视口进入后旧值到新值",
+        "一次",
+        "分隔符和单位稳定",
+        "停在准确值"
+      ],
+      "source_derived_parameter_dimensions": [
+        "起止数值",
+        "逐位/连续模式",
+        "格式",
+        "次数"
+      ],
+      "source_qualitative_constraints": [
+        "终点准确"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2100209733567430964/media/2099702366178344960",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M45",
+      "source_number": 45,
+      "exact_name": "Skeleton loading：骨架屏加载",
+      "source_id": "S3",
+      "source_url": "https://x.com/AdrianPunk115/status/2100209733567430964",
+      "group_id": "G8",
+      "kind": "component_motion",
+      "behavior_summary": "真实数据未到时保留布局结构",
+      "variants": [
+        {
+          "id": "M45.V01",
+          "summary": "标题正文灰条",
+          "original_label": "卡片标题与正文使用灰色条占位。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M45.V02",
+          "summary": "固定比例图块",
+          "original_label": "图片位置显示固定比例的色块。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M45.V03",
+          "summary": "多行占位列表",
+          "original_label": "列表先显示多行相同骨架。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M45.V04",
+          "summary": "明暗呼吸",
+          "original_label": "占位块缓慢明暗呼吸。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M45.V05",
+          "summary": "柔高光扫过",
+          "original_label": "一道柔和高光从骨架表面经过。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "骨架尺寸匹配内容",
+        "轻呼吸",
+        "到数据后平滑替换且位置不跳"
+      ],
+      "source_derived_parameter_dimensions": [
+        "占位尺寸/比例",
+        "呼吸/扫光",
+        "加载完成状态"
+      ],
+      "source_qualitative_constraints": [
+        "短等待无需闪现骨架"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2100209733567430964/media/2099702373388341248",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M46",
+      "source_number": 46,
+      "exact_name": "Loading indicator：加载指示与进度",
+      "source_id": "S3",
+      "source_url": "https://x.com/AdrianPunk115/status/2100209733567430964",
+      "group_id": "G8",
+      "kind": "component_motion",
+      "behavior_summary": "区分不确定工作中和确定进度",
+      "variants": [
+        {
+          "id": "M46.V01",
+          "summary": "按钮旋转",
+          "original_label": "按钮内部出现小型旋转图标。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M46.V02",
+          "summary": "三点依次跳",
+          "original_label": "三个圆点依次跳动，表示正在生成。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M46.V03",
+          "summary": "上传百分比",
+          "original_label": "文件上传显示完成百分比。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M46.V04",
+          "summary": "圆环进度",
+          "original_label": "圆形进度环逐渐填满。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M46.V05",
+          "summary": "批次完成数",
+          "original_label": "批量任务显示已完成数量。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "提交后未知进度旋转且防重复",
+        "可计算时真实百分比",
+        "完成进成功/失败"
+      ],
+      "source_derived_parameter_dimensions": [
+        "确定/不确定模式",
+        "真实进度",
+        "表现形态",
+        "完成状态"
+      ],
+      "source_qualitative_constraints": [
+        "长等待补状态说明和取消入口"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2100209733567430964/media/2099702373916778496",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M47",
+      "source_number": 47,
+      "exact_name": "Success / Error feedback：成功与错误反馈",
+      "source_id": "S3",
+      "source_url": "https://x.com/AdrianPunk115/status/2100209733567430964",
+      "group_id": "G8",
+      "kind": "component_motion",
+      "behavior_summary": "确认操作结果并支持纠错",
+      "variants": [
+        {
+          "id": "M47.V01",
+          "summary": "勾选路径绘制",
+          "original_label": "对勾沿路径绘制出来。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M47.V02",
+          "summary": "按钮加载→成功",
+          "original_label": "按钮从加载状态变成成功状态。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M47.V03",
+          "summary": "错误框短抖",
+          "original_label": "输入框错误时短促左右抖动。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M47.V04",
+          "summary": "错误说明文字",
+          "original_label": "错误字段出现说明文字。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M47.V05",
+          "summary": "内容更新高亮一次",
+          "original_label": "操作完成后内容更新并高亮一次。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "成功对勾和已保存文字",
+        "失败字段仅抖一次并说明原因/修正"
+      ],
+      "source_derived_parameter_dimensions": [
+        "成功/失败状态",
+        "绘制",
+        "短抖",
+        "高亮"
+      ],
+      "source_qualitative_constraints": [
+        "不能只靠颜色",
+        "错误给下一步"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2100209733567430964/media/2099702375351304192",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M48",
+      "source_number": 48,
+      "exact_name": "Icon morphing：图标形变",
+      "source_id": "S3",
+      "source_url": "https://x.com/AdrianPunk115/status/2100209733567430964",
+      "group_id": "G8",
+      "kind": "component_motion",
+      "behavior_summary": "同一控件的图标随状态改变",
+      "variants": [
+        {
+          "id": "M48.V01",
+          "summary": "汉堡→叉",
+          "original_label": "三条菜单线变成关闭叉号。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M48.V02",
+          "summary": "加→减",
+          "original_label": "加号变成减号。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M48.V03",
+          "summary": "播放→暂停",
+          "original_label": "播放三角形变成暂停双线。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M48.V04",
+          "summary": "空心→实心收藏",
+          "original_label": "收藏空心图标变成实心。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M48.V05",
+          "summary": "箭头随开关旋转",
+          "original_label": "箭头旋转表示展开与收起。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "菜单三线与叉平滑互换",
+        "位置和点击范围相同",
+        "键盘能知道展开状态"
+      ],
+      "source_derived_parameter_dimensions": [
+        "起止图形",
+        "路径/旋转",
+        "开关状态"
+      ],
+      "source_qualitative_constraints": [
+        "控件位置与可点击区域稳定"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2100209733567430964/media/2099702377171599360",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M49",
+      "source_number": 49,
+      "exact_name": "Layout animation：布局过渡",
+      "source_id": "S3",
+      "source_url": "https://x.com/AdrianPunk115/status/2100209733567430964",
+      "group_id": "G9",
+      "kind": "motion",
+      "behavior_summary": "元素增删或尺寸/排序变化时连续移位",
+      "variants": [
+        {
+          "id": "M49.V01",
+          "summary": "筛选重排",
+          "original_label": "筛选后卡片重新排列。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M49.V02",
+          "summary": "删除补位",
+          "original_label": "删除一项后，下面的列表向上补位。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M49.V03",
+          "summary": "拖拽让位",
+          "original_label": "拖拽卡片时其他卡片自动让出位置。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M49.V04",
+          "summary": "展开卡片调整",
+          "original_label": "展开卡片后周围布局平稳调整。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M49.V05",
+          "summary": "网格列数变化",
+          "original_label": "网格在不同列数之间重新排布。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "筛选时隐藏项淡出、其余移到新位",
+        "不闪烁不整体重播入场"
+      ],
+      "source_derived_parameter_dimensions": [
+        "新旧布局",
+        "位移",
+        "尺寸",
+        "列数",
+        "透明度"
+      ],
+      "source_qualitative_constraints": [
+        "说明FLIP只是实现思路"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2100209733567430964/media/2099702383786000384",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看",
+      "implementation_term_in_source": "FLIP animation：实现布局过渡的一种思路，不是新增主编号。"
+    },
+    {
+      "id": "M50",
+      "source_number": 50,
+      "exact_name": "Shared element transition：共享元素转场",
+      "source_id": "S3",
+      "source_url": "https://x.com/AdrianPunk115/status/2100209733567430964",
+      "group_id": "G9",
+      "kind": "motion",
+      "behavior_summary": "同一元素跨界面保持连续",
+      "variants": [
+        {
+          "id": "M50.V01",
+          "summary": "卡片图→详情主图",
+          "original_label": "卡片图片扩展为详情页主图。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M50.V02",
+          "summary": "头像→主页顶",
+          "original_label": "头像移动到个人主页顶部。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M50.V03",
+          "summary": "小播放器→完整页",
+          "original_label": "小播放器扩展成完整播放页。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M50.V04",
+          "summary": "缩图→全屏",
+          "original_label": "缩略图放大为全屏预览。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M50.V05",
+          "summary": "列表标题→详情标题",
+          "original_label": "列表中的标题移动到详情页标题栏。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "作品图放大移至详情顶、标题跟随",
+        "返回原卡片"
+      ],
+      "source_derived_parameter_dimensions": [
+        "源/目标位置尺寸",
+        "连续元素",
+        "返回路径"
+      ],
+      "source_qualitative_constraints": [
+        "对象可识别",
+        "没有共享对象时普通转场更清楚"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2100209733567430964/media/2099702384721264640",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M51",
+      "source_number": 51,
+      "exact_name": "Page transition：页面转场",
+      "source_id": "S3",
+      "source_url": "https://x.com/AdrianPunk115/status/2100209733567430964",
+      "group_id": "G9",
+      "kind": "motion",
+      "behavior_summary": "路由或章节切换的整页进出",
+      "variants": [
+        {
+          "id": "M51.V01",
+          "summary": "旧淡出新淡入",
+          "original_label": "旧页面淡出，新页面淡入。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M51.V02",
+          "summary": "新页从右",
+          "original_label": "新页面从右侧进入，表示继续前进。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M51.V03",
+          "summary": "返回反向",
+          "original_label": "返回时沿相反方向退出。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M51.V04",
+          "summary": "色幕扫屏",
+          "original_label": "一块色幕扫过画面完成切换。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M51.V05",
+          "summary": "先缩小再进入新空间",
+          "original_label": "页面先轻微缩小，再进入下一个空间。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "下一层从右轻移淡入、返回逆向",
+        "保留加载反馈",
+        "避免长空白"
+      ],
+      "source_derived_parameter_dimensions": [
+        "进入/退出方向",
+        "透明度",
+        "位移/缩放",
+        "遮幕"
+      ],
+      "source_qualitative_constraints": [
+        "短促",
+        "复杂转场不能拖慢每次点击"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2100209733567430964/media/2099702388416466945",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M52",
+      "source_number": 52,
+      "exact_name": "Feedback：反馈",
+      "source_id": "S3",
+      "source_url": "https://x.com/AdrianPunk115/status/2100209733567430964",
+      "group_id": "G10",
+      "kind": "ux_rule",
+      "behavior_summary": "每个操作阶段都有可理解反馈",
+      "variants": [
+        {
+          "id": "M52.V01",
+          "summary": "操作前可识别",
+          "original_label": "操作前：用户看得出哪里能点。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M52.V02",
+          "summary": "操作中按压/加载",
+          "original_label": "操作时：按钮有按下或加载状态。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M52.V03",
+          "summary": "操作后成功/失败",
+          "original_label": "操作后：页面明确显示成功或失败。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M52.V04",
+          "summary": "失败后可修复/重试",
+          "original_label": "失败后：用户知道怎样修正或重试。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "可操作控件补悬停、键盘焦点、按压",
+        "异步显示加载和结果及下一步"
+      ],
+      "source_derived_parameter_dimensions": [
+        "操作阶段",
+        "反馈状态",
+        "结果与恢复"
+      ],
+      "source_qualitative_constraints": [
+        "即时可理解"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2100209733567430964/media/2099702385786638336",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M53",
+      "source_number": 53,
+      "exact_name": "Affordance：操作暗示",
+      "source_id": "S3",
+      "source_url": "https://x.com/AdrianPunk115/status/2100209733567430964",
+      "group_id": "G10",
+      "kind": "ux_rule",
+      "behavior_summary": "本体外观使可操作性可识别",
+      "variants": [
+        {
+          "id": "M53.V01",
+          "summary": "按钮边界文字",
+          "original_label": "按钮拥有清楚的边界和文字。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M53.V02",
+          "summary": "链接下划线/色/箭头",
+          "original_label": "链接使用下划线、颜色或箭头。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M53.V03",
+          "summary": "拖拽把手/光标",
+          "original_label": "可拖拽区域显示把手或抓取光标。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M53.V04",
+          "summary": "展开箭头/加号/状态",
+          "original_label": "可展开项带箭头、加号或状态文字。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M53.V05",
+          "summary": "输入标签/边框/焦点",
+          "original_label": "输入框拥有标签、边框和键盘焦点样式。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "可点/可展开/可拖目标有明确暗示",
+        "动效确认已有信号",
+        "关键操作不只悬停才出现"
+      ],
+      "source_derived_parameter_dimensions": [
+        "可见边界",
+        "标签",
+        "指示符",
+        "光标"
+      ],
+      "source_qualitative_constraints": [
+        "静态状态也能看出可操作"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2100209733567430964/media/2099702395500654593",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M54",
+      "source_number": 54,
+      "exact_name": "Focus：焦点与注意力",
+      "source_id": "S3",
+      "source_url": "https://x.com/AdrianPunk115/status/2100209733567430964",
+      "group_id": "G10",
+      "kind": "ux_rule",
+      "behavior_summary": "视觉重点与键盘焦点两种含义",
+      "variants": [
+        {
+          "id": "M54.V01",
+          "summary": "主次操作区分",
+          "original_label": "主操作比次要操作更醒目。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M54.V02",
+          "summary": "弹窗保留注意力",
+          "original_label": "弹窗打开后，注意力留在弹窗内。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M54.V03",
+          "summary": "键盘焦点可见",
+          "original_label": "键盘聚焦状态清楚可见。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M54.V04",
+          "summary": "关弹窗返回焦点",
+          "original_label": "关闭弹窗后，焦点回到原按钮。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M54.V05",
+          "summary": "动画后下一步清楚",
+          "original_label": "动画结束后，用户知道下一步看哪里。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "开弹窗背景弱化、焦点进入首操作",
+        "关闭还给原按钮",
+        "所有操作有可见焦点"
+      ],
+      "source_derived_parameter_dimensions": [
+        "视觉强调",
+        "焦点位置",
+        "开关后的焦点路径"
+      ],
+      "source_qualitative_constraints": [
+        "焦点可见且位置正确"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2100209733567430964/media/2099702392589893632",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M55",
+      "source_number": 55,
+      "exact_name": "Reduced motion：减少动态",
+      "source_id": "S3",
+      "source_url": "https://x.com/AdrianPunk115/status/2100209733567430964",
+      "group_id": "G10",
+      "kind": "ux_rule",
+      "behavior_summary": "尊重系统偏好并保留功能性反馈",
+      "variants": [
+        {
+          "id": "M55.V01",
+          "summary": "减弱大视差/缩放",
+          "original_label": "大幅视差和滚动缩放。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M55.V02",
+          "summary": "减弱长距离位移",
+          "original_label": "长距离飞入飞出。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M55.V03",
+          "summary": "减弱自动循环/旋转",
+          "original_label": "自动循环和持续旋转。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M55.V04",
+          "summary": "减弱拖尾/追随/强闪",
+          "original_label": "光标拖尾、背景追随和强烈闪烁。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M55.V05",
+          "summary": "减弱不可暂停序列/轮播",
+          "original_label": "无法暂停的图片序列与自动轮播。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "检测偏好",
+        "关闭视差/滚动缩放/拖尾/循环",
+        "大位移换短淡化",
+        "保留加载和结果"
+      ],
+      "source_derived_parameter_dimensions": [
+        "系统偏好",
+        "动作替代",
+        "暂停/静态状态"
+      ],
+      "source_qualitative_constraints": [
+        "低动态不等于丢失状态信息"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2100209733567430964/media/2099702398763798528",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    },
+    {
+      "id": "M56",
+      "source_number": 56,
+      "exact_name": "Input modality support：鼠标、触屏与键盘适配",
+      "source_id": "S3",
+      "source_url": "https://x.com/AdrianPunk115/status/2100209733567430964",
+      "group_id": "G10",
+      "kind": "ux_rule",
+      "behavior_summary": "关键功能不依赖一种输入设备",
+      "variants": [
+        {
+          "id": "M56.V01",
+          "summary": "悬停↔键盘聚焦",
+          "original_label": "鼠标悬停，对应键盘聚焦。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M56.V02",
+          "summary": "桌面悬停展开↔手机点击",
+          "original_label": "桌面端悬停展开，手机端点击展开。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M56.V03",
+          "summary": "拖排另给上下按钮",
+          "original_label": "拖拽排序，同时提供上移和下移按钮。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M56.V04",
+          "summary": "指针效果↔触屏静态",
+          "original_label": "光标跟随效果，触屏端改为静态。",
+          "original_explanation": ""
+        },
+        {
+          "id": "M56.V05",
+          "summary": "滑动另有前后按钮",
+          "original_label": "左右滑动，同时保留上一项和下一项按钮。",
+          "original_explanation": ""
+        }
+      ],
+      "example_requirements": [
+        "悬停功能具键盘版本、手机点击",
+        "拖/滑之外有可见按钮",
+        "触屏关闭装饰跟随"
+      ],
+      "source_derived_parameter_dimensions": [
+        "输入方式",
+        "等效入口",
+        "静态替代"
+      ],
+      "source_qualitative_constraints": [
+        "主要任务三种输入均可完成"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未指定数值，不能把实现者选值标作原文默认",
+      "media_url": "https://x.com/AdrianPunk115/article/2100209733567430964/media/2099702397019025408",
+      "media_status": "正文媒体链接已识别，媒体本身未逐项查看"
+    }
+  ],
+  "trigger_items": [
+    {
+      "id": "T01",
+      "source_number": 1,
+      "exact_name": "鼠标悬停（Hover）",
+      "source_id": "S1",
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "variants": [
+        {
+          "id": "T01.V01",
+          "summary": "Hover enter：进入",
+          "original_label": "进入悬停（Hover enter）：",
+          "original_explanation": "光标刚进入元素时开始动画。"
+        },
+        {
+          "id": "T01.V02",
+          "summary": "Hover leave：离开",
+          "original_label": "离开悬停（Hover leave）：",
+          "original_explanation": "光标移出后反向播放或恢复原位。"
+        },
+        {
+          "id": "T01.V03",
+          "summary": "Hover state：持续停留",
+          "original_label": "持续悬停（Hover state）：",
+          "original_explanation": "光标留在元素上方时保持另一种状态。"
+        },
+        {
+          "id": "T01.V04",
+          "summary": "Hover intent：等待片刻判断意图",
+          "original_label": "悬停意图（Hover intent）：",
+          "original_explanation": "光标停留片刻后才打开菜单，减少误触。"
+        },
+        {
+          "id": "T01.V05",
+          "summary": "Group hover / Parent hover：整卡触发内部",
+          "original_label": "父级悬停（Group hover / Parent hover）：",
+          "original_explanation": "鼠标放在整张卡片上，内部标题、图片和箭头一起响应。"
+        },
+        {
+          "id": "T01.V06",
+          "summary": "Proximity hover：接近尚未进入即响应",
+          "original_label": "临近触发（Proximity hover）：",
+          "original_explanation": "光标还没进入元素，只要靠近一定范围就开始轻微响应。"
+        }
+      ],
+      "behavior_summary": "说明何时触发，必须另给视觉行为",
+      "example_requirements": [
+        "整张作品卡悬停时轻抬、封面遮罩、标题箭头显现",
+        "离开恢复",
+        "键盘焦点等效",
+        "触屏点击"
+      ],
+      "source_derived_parameter_dimensions": [
+        "悬停状态",
+        "意图延迟",
+        "感应距离",
+        "父子作用域"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未给数值",
+      "media_urls": [
+        "https://x.com/AdrianPunk115/article/2099485951701721585/media/2099481060249927681"
+      ],
+      "media_status": "未逐一查看媒体",
+      "source_combinations": [
+        {
+          "id": "T01.C01",
+          "name": "Hover reveal",
+          "summary": "显现说明、按钮、遮罩或另一张图",
+          "original_label": "悬停显现（Hover reveal）：",
+          "original_explanation": "显示说明、按钮、遮罩或第二张图片。"
+        },
+        {
+          "id": "T01.C02",
+          "name": "Hover lift",
+          "summary": "卡片轻抬并改变阴影",
+          "original_label": "悬停抬升（Hover lift）：",
+          "original_explanation": "卡片轻微上移，同时改变阴影。"
+        },
+        {
+          "id": "T01.C03",
+          "name": "Hover swap",
+          "summary": "替换图片、文字或图标内容",
+          "original_label": "悬停替换（Hover swap）：",
+          "original_explanation": "图片、文字或图标切换成另一种内容。"
+        },
+        {
+          "id": "T01.C04",
+          "name": "Hover underline",
+          "summary": "从一侧展开链接下划线",
+          "original_label": "悬停下划线（Hover underline）：",
+          "original_explanation": "链接下划线从一侧展开。"
+        },
+        {
+          "id": "T01.C05",
+          "name": "Hover tilt",
+          "summary": "随卡内指针位置倾斜",
+          "original_label": "悬停倾斜（Hover tilt）：",
+          "original_explanation": "卡片根据光标位置产生轻微立体倾斜。"
+        },
+        {
+          "id": "T01.C06",
+          "name": "Magnetic hover",
+          "summary": "靠近指针，离开归位",
+          "original_label": "磁吸悬停（Magnetic hover）：",
+          "original_explanation": "按钮或文字向光标方向靠近，移开后回位。"
+        }
+      ]
+    },
+    {
+      "id": "T02",
+      "source_number": 2,
+      "exact_name": "键盘焦点（Focus）",
+      "source_id": "S1",
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "variants": [
+        {
+          "id": "T02.V01",
+          "summary": "Focus：获得焦点",
+          "original_label": "焦点（Focus）：",
+          "original_explanation": "元素获得操作焦点。"
+        },
+        {
+          "id": "T02.V02",
+          "summary": "Focus-visible：键盘时显示焦点",
+          "original_label": "可见焦点（Focus-visible）：",
+          "original_explanation": "主要在键盘操作时显示焦点环，避免鼠标点击后到处出现轮廓。"
+        },
+        {
+          "id": "T02.V03",
+          "summary": "Focus-within：子控件聚焦时容器响应",
+          "original_label": "内部焦点（Focus-within）：",
+          "original_explanation": "表单或搜索框中的子元素获得焦点时，整个容器一起高亮。"
+        }
+      ],
+      "behavior_summary": "Tab导航或输入框点击获得操作焦点",
+      "example_requirements": [
+        "所有按钮/链接/输入框均有可见焦点",
+        "颜色与Hover同体系",
+        "不能只用轻移表示"
+      ],
+      "source_derived_parameter_dimensions": [
+        "焦点状态",
+        "焦点环",
+        "容器联动"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未给数值",
+      "media_urls": [],
+      "media_status": "未逐一查看媒体"
+    },
+    {
+      "id": "T03",
+      "source_number": 3,
+      "exact_name": "点击、轻触与按住（Click / Tap / Press）",
+      "source_id": "S1",
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "variants": [
+        {
+          "id": "T03.V01",
+          "summary": "Click / Tap：单击或轻触",
+          "original_label": "单击或轻触（Click / Tap）：",
+          "original_explanation": "执行一次操作或打开内容。"
+        },
+        {
+          "id": "T03.V02",
+          "summary": "Press / Active：按住瞬间",
+          "original_label": "按下状态（Press / Active）：",
+          "original_explanation": "按住时按钮轻微收缩，松开后执行操作。"
+        },
+        {
+          "id": "T03.V03",
+          "summary": "Toggle：再次触发关闭",
+          "original_label": "开关切换（Toggle）：",
+          "original_explanation": "第一次点击打开，第二次点击关闭。"
+        },
+        {
+          "id": "T03.V04",
+          "summary": "Double click：双击",
+          "original_label": "双击（Double click）：",
+          "original_explanation": "连续点击两次后触发，网页里应少量使用。"
+        },
+        {
+          "id": "T03.V05",
+          "summary": "Long press：长按",
+          "original_label": "长按（Long press）：",
+          "original_explanation": "持续按住后打开菜单或进入特殊状态，主要用于触屏。"
+        }
+      ],
+      "behavior_summary": "区分按下、释放执行及状态切换",
+      "example_requirements": [
+        "按下短促反馈、松开执行",
+        "筛选按钮可开关恢复",
+        "触屏轻触",
+        "主要功能不依赖双击"
+      ],
+      "source_derived_parameter_dimensions": [
+        "按下/释放",
+        "开关",
+        "点击次数",
+        "长按持续"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未给数值",
+      "media_urls": [
+        "https://x.com/AdrianPunk115/article/2099485951701721585/media/2099481060291788800",
+        "https://x.com/AdrianPunk115/article/2099485951701721585/media/2099481059394256896"
+      ],
+      "media_status": "未逐一查看媒体"
+    },
+    {
+      "id": "T04",
+      "source_number": 4,
+      "exact_name": "指针位置、移动与距离（Pointer）",
+      "source_id": "S1",
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "variants": [
+        {
+          "id": "T04.V01",
+          "summary": "Pointer move：持续移动",
+          "original_label": "指针移动（Pointer move）：",
+          "original_explanation": "光标移动时持续更新动画。"
+        },
+        {
+          "id": "T04.V02",
+          "summary": "Pointer position：坐标映射",
+          "original_label": "位置映射（Pointer position）：",
+          "original_explanation": "把光标横纵坐标映射到倾斜角度、光照或渐变中心。"
+        },
+        {
+          "id": "T04.V03",
+          "summary": "Pointer proximity：距离感应",
+          "original_label": "距离感应（Pointer proximity）：",
+          "original_explanation": "越靠近元素，效果越明显。"
+        },
+        {
+          "id": "T04.V04",
+          "summary": "Pointer direction：进入方向",
+          "original_label": "移动方向（Pointer direction）：",
+          "original_explanation": "根据光标从哪一侧进入，决定图片或文字的进入方向。"
+        },
+        {
+          "id": "T04.V05",
+          "summary": "Pointer velocity：移动速度",
+          "original_label": "移动速度（Pointer velocity）：",
+          "original_explanation": "光标移动越快，拖尾、拉伸或惯性越明显。"
+        }
+      ],
+      "behavior_summary": "指针数据映射为动效输入",
+      "example_requirements": [
+        "卡片光晕跟随位置、近中更明显",
+        "离开回默认",
+        "文字不晃",
+        "触屏关闭"
+      ],
+      "source_derived_parameter_dimensions": [
+        "位置",
+        "方向",
+        "速度",
+        "距离",
+        "影响范围"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未给数值",
+      "media_urls": [],
+      "media_status": "未逐一查看媒体"
+    },
+    {
+      "id": "T05",
+      "source_number": 5,
+      "exact_name": "进入视口（In view / Scroll-triggered）",
+      "source_id": "S1",
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "variants": [
+        {
+          "id": "T05.V01",
+          "summary": "Enter viewport：进入",
+          "original_label": "进入视口（Enter viewport）：",
+          "original_explanation": "元素进入可见区域时开始。"
+        },
+        {
+          "id": "T05.V02",
+          "summary": "Leave viewport：离开",
+          "original_label": "离开视口（Leave viewport）：",
+          "original_explanation": "元素滚出屏幕后触发离场或复位。"
+        },
+        {
+          "id": "T05.V03",
+          "summary": "Once：首次一次",
+          "original_label": "播放一次（Once）：",
+          "original_explanation": "第一次看到时播放，往回滚动不重复。"
+        },
+        {
+          "id": "T05.V04",
+          "summary": "Replay：再次进入重播",
+          "original_label": "重复播放（Replay）：",
+          "original_explanation": "每次重新进入视口都播放。"
+        },
+        {
+          "id": "T05.V05",
+          "summary": "Scroll direction：上下方向区分",
+          "original_label": "滚动方向（Scroll direction）：",
+          "original_explanation": "向下和向上滚动时使用不同状态。"
+        },
+        {
+          "id": "T05.V06",
+          "summary": "Trigger point：进入多少时开始",
+          "original_label": "触发位置（Trigger point）：",
+          "original_explanation": "元素刚露出、进入一部分或接近屏幕中央时开始。"
+        }
+      ],
+      "behavior_summary": "到达可见区时启动一段自行播放的动画",
+      "example_requirements": [
+        "功能卡首次进入就入场、不等全部可见",
+        "上滚返回维持终态不闪烁"
+      ],
+      "source_derived_parameter_dimensions": [
+        "进入阈值",
+        "方向",
+        "播放次数",
+        "离开复位"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未给数值",
+      "media_urls": [],
+      "media_status": "未逐一查看媒体"
+    },
+    {
+      "id": "T06",
+      "source_number": 6,
+      "exact_name": "跟随滚动进度（Scroll-linked）",
+      "source_id": "S1",
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "variants": [
+        {
+          "id": "T06.V01",
+          "summary": "Scroll-driven：滚动位置控制",
+          "original_label": "滚动驱动（Scroll-driven）：",
+          "original_explanation": "使用滚动位置控制动画进度。"
+        },
+        {
+          "id": "T06.V02",
+          "summary": "Scrub：同步进度或稍延迟",
+          "original_label": "进度同步（Scrub）：",
+          "original_explanation": "动画紧跟滚动，也可以加入少量跟随延迟。"
+        },
+        {
+          "id": "T06.V03",
+          "summary": "Pin：临时固定",
+          "original_label": "固定内容（Pin）：",
+          "original_explanation": "某个区块暂时固定，旁边内容继续变化。"
+        },
+        {
+          "id": "T06.V04",
+          "summary": "Scroll progress：显示位置",
+          "original_label": "滚动进度（Scroll progress）：",
+          "original_explanation": "用进度条、章节编号或图形变化显示阅读位置。"
+        }
+      ],
+      "behavior_summary": "滚多少播多少，反滚时倒放，区别于进入后自动播完",
+      "example_requirements": [
+        "产品拆解进度跟滚动",
+        "上滚倒放",
+        "暂时固定",
+        "结束自然释放"
+      ],
+      "source_derived_parameter_dimensions": [
+        "滚动进度",
+        "同步延迟",
+        "固定区段",
+        "方向"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未给数值",
+      "media_urls": [
+        "https://x.com/AdrianPunk115/article/2099485951701721585/media/2099481075043184640"
+      ],
+      "media_status": "未逐一查看媒体"
+    },
+    {
+      "id": "T07",
+      "source_number": 7,
+      "exact_name": "拖拽、滑动与缩放手势（Gesture）",
+      "source_id": "S1",
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "variants": [
+        {
+          "id": "T07.V01",
+          "summary": "Drag start：开始",
+          "original_label": "开始拖拽（Drag start）：",
+          "original_explanation": "按住元素，进入可拖动状态。"
+        },
+        {
+          "id": "T07.V02",
+          "summary": "Drag move：跟随",
+          "original_label": "拖拽中（Drag move）：",
+          "original_explanation": "元素跟随手指或鼠标移动。"
+        },
+        {
+          "id": "T07.V03",
+          "summary": "Drag end：释放吸附/回弹",
+          "original_label": "结束拖拽（Drag end）：",
+          "original_explanation": "松开后吸附到目标位置或回到原位。"
+        },
+        {
+          "id": "T07.V04",
+          "summary": "Swipe：快速滑动",
+          "original_label": "快速滑动（Swipe）：",
+          "original_explanation": "根据滑动方向切换卡片、图片或页面。"
+        },
+        {
+          "id": "T07.V05",
+          "summary": "Pinch：双指缩放",
+          "original_label": "双指缩放（Pinch）：",
+          "original_explanation": "两指靠近或分开，控制图片和画布缩放。"
+        },
+        {
+          "id": "T07.V06",
+          "summary": "Rotate：双指旋转",
+          "original_label": "旋转手势（Rotate）：",
+          "original_explanation": "两指旋转对象，多见于图片和设计工具。"
+        }
+      ],
+      "behavior_summary": "直接操纵并在释放后到达明确终态",
+      "example_requirements": [
+        "图片卡拖拽跟手、松手吸附最近位",
+        "快速左滑下一张",
+        "设置边界避免和纵向滚动冲突"
+      ],
+      "source_derived_parameter_dimensions": [
+        "位置",
+        "方向",
+        "速度",
+        "边界",
+        "吸附",
+        "缩放",
+        "旋转"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未给数值",
+      "media_urls": [
+        "https://x.com/AdrianPunk115/article/2099485951701721585/media/2099481074875420672"
+      ],
+      "media_status": "未逐一查看媒体"
+    },
+    {
+      "id": "T08",
+      "source_number": 8,
+      "exact_name": "页面加载与路由切换（Load / Route）",
+      "source_id": "S1",
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "variants": [
+        {
+          "id": "T08.V01",
+          "summary": "Page load：初开页面",
+          "original_label": "页面加载（Page load）：",
+          "original_explanation": "首次打开页面时播放。"
+        },
+        {
+          "id": "T08.V02",
+          "summary": "On mount：组件加入",
+          "original_label": "组件挂载（On mount）：",
+          "original_explanation": "某个组件被加入页面时播放。"
+        },
+        {
+          "id": "T08.V03",
+          "summary": "Route enter：新页",
+          "original_label": "进入页面（Route enter）：",
+          "original_explanation": "新页面出现时触发。"
+        },
+        {
+          "id": "T08.V04",
+          "summary": "Route exit：旧页离开",
+          "original_label": "离开页面（Route exit）：",
+          "original_explanation": "旧页面关闭前触发。"
+        },
+        {
+          "id": "T08.V05",
+          "summary": "Transition complete：转场完毕",
+          "original_label": "转场完成（Transition complete）：",
+          "original_explanation": "页面切换结束后，再播放内部内容。"
+        },
+        {
+          "id": "T08.V06",
+          "summary": "Data ready：数据到齐",
+          "original_label": "数据就绪（Data ready）：",
+          "original_explanation": "数据加载完成后，从骨架屏切换到真实内容。"
+        }
+      ],
+      "behavior_summary": "生命周期与内容准备状态触发",
+      "example_requirements": [
+        "进入先容器淡入再标题卡片",
+        "离开快速收起",
+        "连续导航取消未完动画不阻塞"
+      ],
+      "source_derived_parameter_dimensions": [
+        "生命周期",
+        "时序",
+        "数据就绪",
+        "取消状态"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未给数值",
+      "media_urls": [
+        "https://x.com/AdrianPunk115/article/2099485951701721585/media/2099481075043213312"
+      ],
+      "media_status": "未逐一查看媒体"
+    },
+    {
+      "id": "T09",
+      "source_number": 9,
+      "exact_name": "组件状态变化（State change）",
+      "source_id": "S1",
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "variants": [
+        {
+          "id": "T09.V01",
+          "summary": "Expand / Collapse",
+          "original_label": "展开与收起（Expand / Collapse）",
+          "original_explanation": ""
+        },
+        {
+          "id": "T09.V02",
+          "summary": "Select / Deselect",
+          "original_label": "选中与取消（Select / Deselect）",
+          "original_explanation": ""
+        },
+        {
+          "id": "T09.V03",
+          "summary": "Loading / Success / Error",
+          "original_label": "加载、成功与失败（Loading / Success / Error）",
+          "original_explanation": ""
+        },
+        {
+          "id": "T09.V04",
+          "summary": "On / Off",
+          "original_label": "开启与关闭（On / Off）",
+          "original_explanation": ""
+        },
+        {
+          "id": "T09.V05",
+          "summary": "Content update",
+          "original_label": "内容更新（Content update）",
+          "original_explanation": ""
+        },
+        {
+          "id": "T09.V06",
+          "summary": "Value change",
+          "original_label": "数值变化（Value change）",
+          "original_explanation": ""
+        }
+      ],
+      "behavior_summary": "组件从一个状态进入另一个状态",
+      "example_requirements": [
+        "提交后按钮处理态→成功或失败",
+        "平滑衔接",
+        "错误不可只颜色表达"
+      ],
+      "source_derived_parameter_dimensions": [
+        "状态集合",
+        "过渡顺序",
+        "结果"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未给数值",
+      "media_urls": [
+        "https://x.com/AdrianPunk115/article/2099485951701721585/media/2099481075110330369"
+      ],
+      "media_status": "未逐一查看媒体"
+    },
+    {
+      "id": "T10",
+      "source_number": 10,
+      "exact_name": "延时、自动播放与空闲（Timer / Idle）",
+      "source_id": "S1",
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "variants": [
+        {
+          "id": "T10.V01",
+          "summary": "Delay：等待",
+          "original_label": "延时开始（Delay）：",
+          "original_explanation": "等待片刻后播放。"
+        },
+        {
+          "id": "T10.V02",
+          "summary": "Autoplay：页面就绪播放",
+          "original_label": "自动播放（Autoplay）：",
+          "original_explanation": "页面就绪后自动开始。"
+        },
+        {
+          "id": "T10.V03",
+          "summary": "Interval：定时更新",
+          "original_label": "定时切换（Interval）：",
+          "original_explanation": "每隔一段时间更新内容。"
+        },
+        {
+          "id": "T10.V04",
+          "summary": "Idle：闲置后触发",
+          "original_label": "空闲触发（Idle）：",
+          "original_explanation": "用户一段时间没有操作后播放提示或环境动画。"
+        },
+        {
+          "id": "T10.V05",
+          "summary": "Loop：完成后重播",
+          "original_label": "循环播放（Loop）：",
+          "original_explanation": "动画完成后重新开始。"
+        }
+      ],
+      "behavior_summary": "时间、闲置或上一段结束驱动",
+      "example_requirements": [
+        "就绪自动播放",
+        "悬停/拖拽/切标签页时暂停",
+        "循环间有停顿",
+        "减少动态时静态终态"
+      ],
+      "source_derived_parameter_dimensions": [
+        "延迟",
+        "间隔",
+        "闲置时间",
+        "循环",
+        "暂停条件"
+      ],
+      "numeric_parameter_defaults": null,
+      "numeric_defaults_status": "原文未给数值",
+      "media_urls": [
+        "https://x.com/AdrianPunk115/article/2099485951701721585/media/2099481090830503936"
+      ],
+      "media_status": "未逐一查看媒体"
+    }
+  ],
+  "tool_items": [
+    {
+      "id": "U01",
+      "name": "CSS",
+      "source_role": "普通按钮、卡片、文字动画",
+      "source_id": "S1",
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "numeric_parameters_specified": false
+    },
+    {
+      "id": "U02",
+      "name": "Motion",
+      "source_role": "React组件动画",
+      "source_id": "S1",
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "numeric_parameters_specified": false
+    },
+    {
+      "id": "U03",
+      "name": "GSAP",
+      "source_role": "复杂时间线与滚动叙事",
+      "source_id": "S1",
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "numeric_parameters_specified": false
+    },
+    {
+      "id": "U04",
+      "name": "Three.js",
+      "source_role": "网页3D场景",
+      "source_id": "S1",
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "numeric_parameters_specified": false
+    },
+    {
+      "id": "U05",
+      "name": "Lottie",
+      "source_role": "播放制作好的矢量动画",
+      "source_id": "S1",
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "numeric_parameters_specified": false
+    },
+    {
+      "id": "U06",
+      "name": "Rive",
+      "source_role": "多互动状态角色",
+      "source_id": "S1",
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "numeric_parameters_specified": false
+    }
+  ],
+  "unnumbered_blocks": [
+    {
+      "id": "B.S1.01",
+      "source_id": "S1",
+      "source_heading": "开篇说明与示例",
+      "type": "combination",
+      "summary": "具体动效语言比抽象形容词可执行；开页后大标题按行、说明淡入、三卡交错；风格克制，正文不用逐字",
+      "related_items": [
+        "M15",
+        "M06",
+        "M04"
+      ],
+      "count_as_main_item": false,
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585"
+    },
+    {
+      "id": "B.S1.02",
+      "source_id": "S1",
+      "source_heading": "一、先认识 UI、UX 和 Vibe coding",
+      "type": "foundation",
+      "subheadings": [
+        "UI：用户界面",
+        "UX：用户体验",
+        "Vibe coding：用自然语言描述网页"
+      ],
+      "summary": "分别解释界面构成、使用体验以及自然语言描述驱动代码；动效同时影响界面与操作理解",
+      "count_as_main_item": false,
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585"
+    },
+    {
+      "id": "B.S1.03",
+      "source_id": "S1",
+      "source_heading": "二、网页动效的四层结构",
+      "type": "foundation",
+      "dimensions": [
+        "技术工具：怎样实现",
+        "触发方式：何时启动",
+        "动效类型：画面如何变化",
+        "UX规则：可用性约束"
+      ],
+      "summary": "工具、触发、视觉行为、UX不可混为同一类",
+      "count_as_main_item": false,
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585"
+    },
+    {
+      "id": "B.S1.04",
+      "source_id": "S1",
+      "source_heading": "三、第一层：技术工具——用什么实现",
+      "type": "tool_policy",
+      "summary": "先检查并复用现有技术栈；简单动效优先CSS，不为简单显隐引入大型库；选工具不替代描述触发与行为",
+      "related_tools": [
+        "U01",
+        "U02",
+        "U03",
+        "U04",
+        "U05",
+        "U06"
+      ],
+      "count_as_main_item": false,
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585"
+    },
+    {
+      "id": "B.S1.05",
+      "source_id": "S1",
+      "source_heading": "四、第二层：触发方式——什么时候开始",
+      "type": "trigger_index",
+      "summary": "同一种动效可以由多种动作触发；正文十个触发词条和各自示例均列于T01–T10",
+      "count_as_main_item": false,
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585"
+    },
+    {
+      "id": "B.S1.06",
+      "source_id": "S1",
+      "source_heading": "描述触发方式时的检查顺序",
+      "type": "checklist",
+      "dimensions": [
+        "由谁触发",
+        "何种条件开始",
+        "采用什么动效",
+        "结束/离开如何恢复",
+        "键盘/触屏的等效方式"
+      ],
+      "count_as_main_item": false,
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585"
+    },
+    {
+      "id": "B.S1.07",
+      "source_id": "S1",
+      "source_heading": "五、第三层：动效类型（第一部分）——页面具体怎么动",
+      "type": "group_guidance",
+      "summary": "每个词条解释表现、变体、适用位置和AI描述；手感控制不等于方向；入场可结合属性但区块宜有一个主动作；文字优先阅读，越长越少逐字",
+      "count_as_main_item": false,
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585"
+    },
+    {
+      "id": "B.S1.08",
+      "source_id": "S1",
+      "source_heading": "第三层还没有讲完",
+      "type": "continuation",
+      "summary": "上篇以基础触发、手感、显隐与文字结束；后续第17项起补滚动、指针、组件、布局、转场，最后UX",
+      "count_as_main_item": false,
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585"
+    },
+    {
+      "id": "B.S1.09",
+      "source_id": "S1",
+      "source_heading": "关于作者",
+      "type": "attribution",
+      "summary": "作者Punk / @AdrianPunk115，含简介、个人链接和配图；个人宣传内容不属于动效功能规格",
+      "count_as_main_item": false,
+      "source_url": "https://x.com/AdrianPunk115/status/2099485951701721585"
+    },
+    {
+      "id": "B.S2.01",
+      "source_id": "S2",
+      "source_heading": "开篇分层说明",
+      "type": "foundation",
+      "summary": "滚动是触发，视差是视觉类型；本篇进阶文字17–20、滚动空间21–28、鼠标指针29–36",
+      "count_as_main_item": false,
+      "source_url": "https://x.com/AdrianPunk115/status/2099772129478869309"
+    },
+    {
+      "id": "B.S2.02",
+      "source_id": "S2",
+      "source_heading": "三组导读",
+      "type": "group_guidance",
+      "summary": "强文字动效只放短重点；滚动触发与进度联动须明确区分；桌面指针效果必须交代触屏简化",
+      "count_as_main_item": false,
+      "source_url": "https://x.com/AdrianPunk115/status/2099772129478869309"
+    },
+    {
+      "id": "B.S2.C01",
+      "source_id": "S2",
+      "source_heading": "四、把“触发方式”和“动效类型”组合起来",
+      "type": "combination",
+      "summary": "页面滚动驱动前后景轻视差，前景变化更明显，手机减弱",
+      "related_items": [
+        "M21"
+      ],
+      "related_triggers": [
+        "T06"
+      ],
+      "count_as_main_item": false,
+      "source_url": "https://x.com/AdrianPunk115/status/2099772129478869309"
+    },
+    {
+      "id": "B.S2.C02",
+      "source_id": "S2",
+      "source_heading": "四、把“触发方式”和“动效类型”组合起来",
+      "type": "combination",
+      "summary": "卡片进视口依次显现；悬停轻微倾斜；移开恢复",
+      "related_items": [
+        "M04",
+        "M30"
+      ],
+      "related_triggers": [
+        "T05",
+        "T01"
+      ],
+      "count_as_main_item": false,
+      "source_url": "https://x.com/AdrianPunk115/status/2099772129478869309"
+    },
+    {
+      "id": "B.S2.C03",
+      "source_id": "S2",
+      "source_heading": "四、把“触发方式”和“动效类型”组合起来",
+      "type": "combination",
+      "summary": "光标接近主按钮产生小幅磁吸；触屏换普通按压反馈",
+      "related_items": [
+        "M29",
+        "M56"
+      ],
+      "related_triggers": [
+        "T01",
+        "T03"
+      ],
+      "count_as_main_item": false,
+      "source_url": "https://x.com/AdrianPunk115/status/2099772129478869309"
+    },
+    {
+      "id": "B.S2.C04",
+      "source_id": "S2",
+      "source_heading": "四、把“触发方式”和“动效类型”组合起来",
+      "type": "combination",
+      "summary": "下滚让产品连续图片正放，上滚反放",
+      "related_items": [
+        "M26"
+      ],
+      "related_triggers": [
+        "T06"
+      ],
+      "count_as_main_item": false,
+      "source_url": "https://x.com/AdrianPunk115/status/2099772129478869309"
+    },
+    {
+      "id": "B.S2.03",
+      "source_id": "S2",
+      "source_heading": "完整描述的四项要素",
+      "type": "checklist",
+      "dimensions": [
+        "操作对象",
+        "触发方式",
+        "动效名称",
+        "结束或替代状态"
+      ],
+      "summary": "说明四项后再复用项目已有实现工具",
+      "count_as_main_item": false,
+      "source_url": "https://x.com/AdrianPunk115/status/2099772129478869309"
+    },
+    {
+      "id": "B.S2.04",
+      "source_id": "S2",
+      "source_heading": "末段预告",
+      "type": "continuation",
+      "summary": "下一篇处理组件展开、数字、加载、布局、转场，再补UX规则",
+      "count_as_main_item": false,
+      "source_url": "https://x.com/AdrianPunk115/status/2099772129478869309"
+    },
+    {
+      "id": "B.S2.05",
+      "source_id": "S2",
+      "source_heading": "往期前端类作品回顾：",
+      "type": "reference_list",
+      "ordered_reference_ids": [
+        "visual-upper",
+        "visual-lower",
+        "frontend-workflow",
+        "motion-upper"
+      ],
+      "verification_note": "第四张卡片初次加载未就绪；2026-10-02 09:56 UTC复核已完整显示",
+      "count_as_main_item": false,
+      "source_url": "https://x.com/AdrianPunk115/status/2099772129478869309"
+    },
+    {
+      "id": "B.S2.06",
+      "source_id": "S2",
+      "source_heading": "关于作者",
+      "type": "attribution",
+      "summary": "作者简介、作者链接、配图；不是动效编号",
+      "count_as_main_item": false,
+      "source_url": "https://x.com/AdrianPunk115/status/2099772129478869309"
+    },
+    {
+      "id": "B.S3.01",
+      "source_id": "S3",
+      "source_heading": "开篇与四层结构回顾",
+      "type": "foundation",
+      "summary": "组件状态变化需要明确过渡；本篇37–51补视觉/组件，52–56为五条UX；复述技术、触发、类型、UX四层",
+      "count_as_main_item": false,
+      "source_url": "https://x.com/AdrianPunk115/status/2100209733567430964"
+    },
+    {
+      "id": "B.S3.02",
+      "source_id": "S3",
+      "source_heading": "四组导读",
+      "type": "group_guidance",
+      "summary": "组件需要方向与归属；等待需要状态/进度/结果；布局与转场解释新旧位置；UX规则约束前面所有动效",
+      "count_as_main_item": false,
+      "source_url": "https://x.com/AdrianPunk115/status/2100209733567430964"
+    },
+    {
+      "id": "B.S3.C01",
+      "source_id": "S3",
+      "source_heading": "五、最后把四层写进一句提示词",
+      "type": "combination",
+      "summary": "用已有工具制作商品详情：卡片主图连续变为详情图，返回还原；加购按钮经历加载与成功，同时Toast；弹窗/抽屉锁背景并处理焦点；手机用点击；减少动态时改短淡化",
+      "related_items": [
+        "M50",
+        "M46",
+        "M47",
+        "M43",
+        "M39",
+        "M40",
+        "M54",
+        "M55",
+        "M56"
+      ],
+      "related_triggers": [
+        "T03",
+        "T08",
+        "T09"
+      ],
+      "count_as_main_item": false,
+      "source_url": "https://x.com/AdrianPunk115/status/2100209733567430964"
+    },
+    {
+      "id": "B.S3.03",
+      "source_id": "S3",
+      "source_heading": "组合示例的四层拆解",
+      "type": "checklist",
+      "dimensions": [
+        "工具：现有方案",
+        "触发：点击、加购、返回",
+        "类型：共享元素、加载、结果、Toast",
+        "UX：焦点、触屏、减少动态"
+      ],
+      "count_as_main_item": false,
+      "source_url": "https://x.com/AdrianPunk115/status/2100209733567430964"
+    },
+    {
+      "id": "B.S3.04",
+      "source_id": "S3",
+      "source_heading": "六、把喜欢的网页变成自己的动效素材库",
+      "type": "workflow",
+      "summary": "亲手移动鼠标、点击、滚动、开菜单，观察响应；把56项当观察词汇而非要求背诵",
+      "observation_dimensions": [
+        "触发方式",
+        "动效类型",
+        "结束状态",
+        "UX规则"
+      ],
+      "count_as_main_item": false,
+      "source_url": "https://x.com/AdrianPunk115/status/2100209733567430964"
+    },
+    {
+      "id": "B.S3.05",
+      "source_id": "S3",
+      "source_heading": "动效记录模板",
+      "type": "template_fields",
+      "dimensions": [
+        "网页/页面出处",
+        "操作对象",
+        "触发方式",
+        "动效类型",
+        "结束状态",
+        "UX处理",
+        "想应用的位置"
+      ],
+      "summary": "可搭配截图或短录屏记录；不是额外主编号",
+      "count_as_main_item": false,
+      "source_url": "https://x.com/AdrianPunk115/status/2100209733567430964"
+    },
+    {
+      "id": "B.S3.06",
+      "source_id": "S3",
+      "source_heading": "素材库实践示例与结尾",
+      "type": "workflow",
+      "summary": "以鼠标倾斜卡片为例分析触发和互动；先在网站局部验证阅读、点击和手机再决定保留；从收藏中的一个页面拆一项开始",
+      "related_items": [
+        "M30"
+      ],
+      "count_as_main_item": false,
+      "source_url": "https://x.com/AdrianPunk115/status/2100209733567430964"
+    },
+    {
+      "id": "B.S3.07",
+      "source_id": "S3",
+      "source_heading": "往期回顾",
+      "type": "reference_list",
+      "ordered_reference_ids": [
+        "motion-upper",
+        "motion-middle",
+        "frontend-workflow",
+        "visual-upper",
+        "visual-lower"
+      ],
+      "count_as_main_item": false,
+      "source_url": "https://x.com/AdrianPunk115/status/2100209733567430964"
+    },
+    {
+      "id": "B.S3.08",
+      "source_id": "S3",
+      "source_heading": "关于作者",
+      "type": "attribution",
+      "summary": "作者简介、作者链接、配图；不是动效编号",
+      "count_as_main_item": false,
+      "source_url": "https://x.com/AdrianPunk115/status/2100209733567430964"
+    }
+  ],
+  "references": {
+    "visual-upper": {
+      "title": "Vibe Coding 视觉词典（上篇）：布局、页面结构、导航与常用组件",
+      "observed_status_href": "/AdrianPunk115/status/2084538166577602899",
+      "observed_article_href": "/i/article/2084538166577602899",
+      "verification": "嵌入卡片的标题/链接已见；未打开文章全文，不纳入本次56项规格"
+    },
+    "visual-lower": {
+      "title": "Vibe Coding 视觉词典（下篇）：滚动动作、提示加载、视觉风格与高级效果",
+      "observed_status_href": "/AdrianPunk115/status/2084932520953753985",
+      "observed_article_href": "/i/article/2084932520953753985",
+      "verification": "嵌入卡片的标题/链接已见；未打开文章全文，不纳入本次56项规格"
+    },
+    "frontend-workflow": {
+      "title": "AI网站前端设计工作流：小白保姆级教程",
+      "observed_status_href": "/AdrianPunk115/status/2096202974653722823",
+      "observed_article_href": "/i/article/2096202974653722823",
+      "verification": "嵌入卡片的标题/链接已见；未打开文章全文，不纳入本次56项规格"
+    },
+    "motion-upper": {
+      "title": "Vibe Coding 网页动效词典（上篇）：教你准确描述页面怎么动",
+      "url": "https://x.com/AdrianPunk115/status/2099485951701721585",
+      "verification": "完整正文已核"
+    },
+    "motion-middle": {
+      "title": "Vibe Coding 网页动效词典（中篇）：视差滚动、磁吸按钮与鼠标跟随",
+      "url": "https://x.com/AdrianPunk115/status/2099772129478869309",
+      "verification": "完整正文已核"
+    }
+  },
+  "scope_specific_user_requirements_separate_from_source": [
+    "页面应逐项对齐原文、顺序与编号不可错乱、不漏常见类型。",
+    "首批由当前模型制作，后续保留同项不同模型的比较位置。",
+    "所有有可调维度的动效开放交互参数观察，不只1–5。",
+    "原文支持的定性基线与实现选值/额外探索参数应分开标注；实时生效与需重播区别；可复位。",
+    "跨模型比较保持相同条目、场景与共享参数；当前阶段只做规划与视觉选择，未授权本规格执行代码或部署。"
+  ],
+  "known_gaps": [
+    {
+      "area": "原文媒体",
+      "status": "待逐项观看",
+      "impact": "不能声称视觉表现与媒体完全一致，尤其方向、速度、细节组合；文字要求已核"
+    },
+    {
+      "area": "精确参数默认",
+      "status": "原文未提供统一数值",
+      "impact": "实现时需声明为实现者选值；不能归为原文数值默认"
+    },
+    {
+      "area": "三篇回顾所链接的其他文章",
+      "status": "仅核对卡片标题与链接，未读取全文",
+      "impact": "保留参考入口即可，其全文不属于本次三篇的56主项范围"
+    },
+    {
+      "area": "每种变体的全套提示词",
+      "status": "原文并未逐变体给出",
+      "impact": "每项通常只有一个代表提示词；不得说每个变体都有独立原文提示词"
+    }
+  ],
+  "coverage_counts": {
+    "main_items": 56,
+    "main_source_list_entries": 273,
+    "trigger_items": 10,
+    "trigger_source_list_entries": 52,
+    "hover_combinations": 6,
+    "tools": 6,
+    "unnumbered_source_blocks": 28,
+    "main_media_links": 55,
+    "trigger_media_links": 8,
+    "reference_cards_by_source": {
+      "S1": 0,
+      "S2": 4,
+      "S3": 5
+    }
+  },
+  "acceptance_status_template": {
+    "text_mapped": "yes",
+    "implementation": "not_started",
+    "variant_demos": "not_started",
+    "interactive_parameters": "not_started",
+    "keyboard_touch_reduced_motion": "not_started",
+    "source_media_match": "not_verified"
+  }
+}

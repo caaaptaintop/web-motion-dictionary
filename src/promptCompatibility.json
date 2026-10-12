@@ -1,0 +1,931 @@
+{
+  "M01": {
+    "scenes": [
+      "progress",
+      "spinner",
+      "marquee",
+      "button",
+      "menu",
+      "cards",
+      "exit",
+      "oscillate",
+      "switch"
+    ],
+    "variants": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "conflicts": [],
+    "reviewed": true
+  },
+  "M02": {
+    "scenes": [
+      "button",
+      "icon",
+      "switch",
+      "cards",
+      "menu",
+      "modal",
+      "image",
+      "brand",
+      "pages"
+    ],
+    "variants": [
+      0,
+      1,
+      2
+    ],
+    "conflicts": [],
+    "reviewed": true
+  },
+  "M03": {
+    "scenes": [
+      "hero",
+      "article"
+    ],
+    "variants": [
+      0
+    ],
+    "conflicts": [],
+    "reviewed": true,
+    "difference_reason": "原文代表例是标题、说明、按钮依次进入；当前对象或启动条件不同。"
+  },
+  "M04": {
+    "scenes": [
+      "cards"
+    ],
+    "variants": [
+      0
+    ],
+    "conflicts": [],
+    "reviewed": true,
+    "difference_reason": "原文代表例指定六张卡片；当前对象、数量或分组不同。"
+  },
+  "M05": {
+    "scenes": [
+      "modal"
+    ],
+    "variants": [
+      0,
+      1,
+      2
+    ],
+    "conflicts": [
+      3
+    ],
+    "reviewed": true,
+    "difference_reason": "原文代表例是小幅回弹的弹窗；当前对象或回弹手感不同。"
+  },
+  "M06": {
+    "scenes": [
+      "landing",
+      "modal"
+    ],
+    "variants": [],
+    "conflicts": [],
+    "reviewed": true,
+    "difference_reason": "原文代表例是页面内容顺序淡入与弹窗关闭淡出；当前对象或显隐过程不同。"
+  },
+  "M07": {
+    "scenes": [
+      "tabs"
+    ],
+    "variants": [
+      1
+    ],
+    "conflicts": [],
+    "reviewed": true,
+    "difference_reason": "原文代表例是标签内容交叉淡化；当前切换对象不同。"
+  },
+  "M08": {
+    "scenes": [
+      "menu",
+      "chapter",
+      "drawer"
+    ],
+    "variants": [
+      4
+    ],
+    "conflicts": [
+      1,
+      2
+    ],
+    "reviewed": true,
+    "difference_reason": "原文代表例是右侧菜单和从下方进入的章节标题；当前对象或方向不同。"
+  },
+  "M09": {
+    "scenes": [
+      "modal",
+      "button",
+      "image-modal"
+    ],
+    "variants": [
+      0,
+      1
+    ],
+    "conflicts": [],
+    "reviewed": true,
+    "difference_reason": "原文代表例是弹窗缩放淡入淡出与按钮按压；当前对象或用途不同。"
+  },
+  "M10": {
+    "scenes": [
+      "hero",
+      "gallery",
+      "product",
+      "feature",
+      "image",
+      "article"
+    ],
+    "variants": [
+      0,
+      1,
+      2
+    ],
+    "conflicts": [
+      4
+    ],
+    "reviewed": true,
+    "difference_reason": "原文代表例是标题和重点图片由模糊变清晰；当前目标或变化方向不同。"
+  },
+  "M11": {
+    "scenes": [
+      "product",
+      "portfolio",
+      "chapter"
+    ],
+    "variants": [
+      0
+    ],
+    "conflicts": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "reviewed": true,
+    "difference_reason": "原文代表例是图片从左向右裁剪揭示；当前目标或裁剪方向不同。"
+  },
+  "M12": {
+    "scenes": [
+      "product",
+      "gallery",
+      "portfolio",
+      "poster"
+    ],
+    "variants": [
+      4
+    ],
+    "conflicts": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "reviewed": true,
+    "difference_reason": "原文代表例是图片用柔和渐变从中央显现；当前对象或蒙版方式不同。"
+  },
+  "M13": {
+    "scenes": [
+      "pages",
+      "portfolio",
+      "carousel",
+      "chapter",
+      "video"
+    ],
+    "variants": [
+      0
+    ],
+    "conflicts": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "reviewed": true
+  },
+  "M14": {
+    "scenes": [
+      "hero",
+      "chapter",
+      "slogan",
+      "feature"
+    ],
+    "variants": [
+      0,
+      3
+    ],
+    "conflicts": [
+      1,
+      2,
+      4
+    ],
+    "reviewed": true,
+    "difference_reason": "原文代表例按整行从裁剪窗口向上显现；当前分组或显现方式不同。"
+  },
+  "M15": {
+    "scenes": [
+      "hero",
+      "quote",
+      "chapter",
+      "brand"
+    ],
+    "variants": [
+      0,
+      1,
+      2
+    ],
+    "conflicts": [],
+    "reviewed": true,
+    "difference_reason": "原文代表例按整行从下方进入；当前类型只改变透明度。"
+  },
+  "M16": {
+    "scenes": [
+      "short",
+      "slogan",
+      "data",
+      "sentence"
+    ],
+    "variants": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "conflicts": [],
+    "reviewed": true
+  },
+  "M17": {
+    "scenes": [
+      "chinese"
+    ],
+    "variants": [
+      0
+    ],
+    "conflicts": [],
+    "reviewed": true,
+    "difference_reason": "原文代表例只对四个关键词逐字显现，其余文字整行出现；当前构图或动作不同。"
+  },
+  "M18": {
+    "scenes": [
+      "terminal"
+    ],
+    "variants": [
+      0
+    ],
+    "conflicts": [
+      3
+    ],
+    "reviewed": true,
+    "difference_reason": "原文代表例输入一条命令后保留，且不循环删除；当前文字用途或循环方式不同。"
+  },
+  "M19": {
+    "scenes": [
+      "hero",
+      "status",
+      "game",
+      "easter"
+    ],
+    "variants": [
+      0,
+      2,
+      3,
+      4
+    ],
+    "conflicts": [],
+    "reviewed": true,
+    "difference_reason": "原文代表例是英文标题一次解码；当前文字内容或重复触发方式不同。"
+  },
+  "M20": {
+    "scenes": [
+      "short",
+      "keywords",
+      "brand"
+    ],
+    "variants": [
+      3
+    ],
+    "conflicts": [
+      1,
+      2,
+      4
+    ],
+    "reviewed": true,
+    "difference_reason": "原文代表例是三个短词循环交叉变换；当前词数、更新方式或形变对象不同。"
+  },
+  "M21": {
+    "scenes": [
+      "brand",
+      "product",
+      "portfolio",
+      "story"
+    ],
+    "variants": [
+      0
+    ],
+    "conflicts": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "reviewed": true,
+    "difference_reason": "原文代表例是三层随滚动移动，前景正常滚动；当前触发或层间方向不同。"
+  },
+  "M22": {
+    "scenes": [
+      "story",
+      "game",
+      "film",
+      "3d",
+      "hero"
+    ],
+    "variants": [
+      1,
+      3
+    ],
+    "conflicts": [],
+    "reviewed": true,
+    "difference_reason": "原文代表例指定三层完整画面；当前独立示例的图层数不同。"
+  },
+  "M23": {
+    "scenes": [
+      "portfolio",
+      "story",
+      "features",
+      "gallery"
+    ],
+    "variants": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "conflicts": [],
+    "reviewed": true,
+    "difference_reason": "原文代表例是四张卡片横向经过视口；当前对象是时间轴。"
+  },
+  "M24": {
+    "scenes": [
+      "product",
+      "chapter",
+      "photo",
+      "3d"
+    ],
+    "variants": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "conflicts": [],
+    "reviewed": true,
+    "difference_reason": "原文代表例是主视觉由小放大并进入详情；当前对象或缩放叙事不同。"
+  },
+  "M25": {
+    "scenes": [
+      "features",
+      "tutorial"
+    ],
+    "variants": [
+      0
+    ],
+    "conflicts": [],
+    "reviewed": true,
+    "difference_reason": "原文代表例是左侧三段说明、右侧界面只更新对应区域；当前对象或更新结构不同。"
+  },
+  "M26": {
+    "scenes": [
+      "car",
+      "phone",
+      "hardware",
+      "clothing",
+      "story"
+    ],
+    "variants": [
+      0,
+      4
+    ],
+    "conflicts": [
+      1,
+      2,
+      3
+    ],
+    "reviewed": true,
+    "difference_reason": "原文代表例让产品旋转并反向回放；当前序列演示的是拆解、昼夜或角色动作。"
+  },
+  "M27": {
+    "scenes": [
+      "gallery",
+      "features"
+    ],
+    "variants": [
+      1,
+      2,
+      4
+    ],
+    "conflicts": [],
+    "reviewed": true,
+    "difference_reason": "原文代表例是横向卡片停靠中央；当前滚动方向或停靠对象不同。"
+  },
+  "M28": {
+    "scenes": [
+      "article",
+      "tutorial",
+      "product",
+      "chapter"
+    ],
+    "variants": [],
+    "conflicts": [],
+    "reviewed": true,
+    "difference_reason": "原文代表例同时包含长文进度条与侧边目录；当前只观察部分指标或不同流程。"
+  },
+  "M29": {
+    "scenes": [
+      "cta",
+      "portfolio",
+      "link"
+    ],
+    "variants": [
+      0,
+      3,
+      4
+    ],
+    "conflicts": [
+      1,
+      2
+    ],
+    "reviewed": true,
+    "difference_reason": "原文代表例让整个主按钮与文字共同移动；当前类型只移动文字或使用无文字图标。"
+  },
+  "M30": {
+    "scenes": [
+      "portfolio",
+      "product",
+      "game",
+      "hero"
+    ],
+    "variants": [
+      1
+    ],
+    "conflicts": [],
+    "reviewed": true,
+    "difference_reason": "原文代表例同时包含倾斜与同步高光；当前独立类型只展示其中部分动作。"
+  },
+  "M31": {
+    "scenes": [
+      "portfolio",
+      "gallery",
+      "hint",
+      "brand"
+    ],
+    "variants": [
+      0
+    ],
+    "conflicts": [],
+    "reviewed": true,
+    "difference_reason": "原文代表例是点、延迟圆环与作品图片提示；当前选择针对视频、拖动或链接的专门提示。"
+  },
+  "M32": {
+    "scenes": [
+      "product",
+      "portfolio",
+      "tech",
+      "explore"
+    ],
+    "variants": [
+      0,
+      1,
+      4
+    ],
+    "conflicts": [
+      2,
+      3
+    ],
+    "reviewed": true,
+    "difference_reason": "原文代表例是网格上的柔和圆形光区；当前选择是文字揭示或仅边框亮起。"
+  },
+  "M33": {
+    "scenes": [
+      "mascot",
+      "login",
+      "404",
+      "children",
+      "brand"
+    ],
+    "variants": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "conflicts": [],
+    "reviewed": true,
+    "difference_reason": "原文代表例是眼睛跟随和回中；当前选择额外演示点击眨眼。"
+  },
+  "M34": {
+    "scenes": [
+      "hero",
+      "event",
+      "portfolio",
+      "music",
+      "art",
+      "easter"
+    ],
+    "variants": [
+      0,
+      4
+    ],
+    "conflicts": [
+      1,
+      2,
+      3
+    ],
+    "reviewed": true,
+    "difference_reason": "原文代表例使用圆点拖尾；当前轨迹由线、图片或图标构成。"
+  },
+  "M35": {
+    "scenes": [
+      "product",
+      "tool",
+      "ai",
+      "data",
+      "portfolio"
+    ],
+    "variants": [
+      1
+    ],
+    "conflicts": [
+      0,
+      2,
+      3,
+      4
+    ],
+    "reviewed": true,
+    "difference_reason": "原文代表例是局部网格弯曲；当前背景对象不是网格。"
+  },
+  "M36": {
+    "scenes": [
+      "hardware",
+      "car",
+      "shoe",
+      "tech",
+      "game",
+      "robot"
+    ],
+    "variants": [
+      0,
+      1,
+      4
+    ],
+    "conflicts": [
+      2,
+      3
+    ],
+    "reviewed": true,
+    "difference_reason": "原文代表例让模型本身小幅旋转；当前选择改变相机视角或灯光。"
+  },
+  "M37": {
+    "scenes": [
+      "faq",
+      "settings",
+      "directory",
+      "list",
+      "detail"
+    ],
+    "variants": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "conflicts": [],
+    "reviewed": true
+  },
+  "M38": {
+    "scenes": [
+      "nav",
+      "tooltip",
+      "actions",
+      "filter",
+      "account"
+    ],
+    "variants": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "conflicts": [],
+    "reviewed": true,
+    "difference_reason": "原文代表例描述导航展开、短提示和操作浮层；当前选择是选择列表及其空间布局。"
+  },
+  "M39": {
+    "scenes": [
+      "confirm"
+    ],
+    "variants": [
+      0
+    ],
+    "conflicts": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "reviewed": true,
+    "difference_reason": "原文代表例是中央删除确认弹窗；当前操作对象或展开起点不同。"
+  },
+  "M40": {
+    "scenes": [
+      "cart"
+    ],
+    "variants": [
+      0
+    ],
+    "conflicts": [],
+    "reviewed": true,
+    "difference_reason": "原文代表例是右侧购物车；当前面板内容或进入方向不同。"
+  },
+  "M41": {
+    "scenes": [
+      "pricing",
+      "product",
+      "settings",
+      "data"
+    ],
+    "variants": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "conflicts": [],
+    "reviewed": true
+  },
+  "M42": {
+    "scenes": [
+      "case"
+    ],
+    "variants": [
+      4
+    ],
+    "conflicts": [
+      1,
+      2
+    ],
+    "reviewed": true,
+    "difference_reason": "原文代表例包含自动播放且手动操作后暂停；当前类型的切换方式或自动播放范围不同。"
+  },
+  "M43": {
+    "scenes": [
+      "copy"
+    ],
+    "variants": [
+      0
+    ],
+    "conflicts": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "reviewed": true,
+    "difference_reason": "原文代表例是复制链接后的单条底部提示；当前操作、位置或消息行为不同。"
+  },
+  "M44": {
+    "scenes": [
+      "data",
+      "sales",
+      "rate",
+      "mileage",
+      "achievement"
+    ],
+    "variants": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "conflicts": [],
+    "reviewed": true
+  },
+  "M45": {
+    "scenes": [
+      "feed",
+      "product",
+      "profile",
+      "async"
+    ],
+    "variants": [
+      3
+    ],
+    "conflicts": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "reviewed": true,
+    "difference_reason": "原文代表例包含骨架的明暗呼吸；当前独立类型展示静态结构或扫光。"
+  },
+  "M46": {
+    "scenes": [
+      "submit",
+      "search",
+      "upload",
+      "download",
+      "export",
+      "batch"
+    ],
+    "variants": [
+      0,
+      2,
+      3,
+      4
+    ],
+    "conflicts": [],
+    "reviewed": true,
+    "difference_reason": "原文代表例是不确定进度的旋转图标或可计算进度条；当前选择使用三点生成提示。"
+  },
+  "M47": {
+    "scenes": [
+      "form",
+      "save",
+      "payment",
+      "upload",
+      "key"
+    ],
+    "variants": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "conflicts": [],
+    "reviewed": true,
+    "difference_reason": "原文代表例在失败时同时短抖并说明原因；当前独立类型只展示说明文字。"
+  },
+  "M48": {
+    "scenes": [
+      "menu"
+    ],
+    "variants": [
+      0
+    ],
+    "conflicts": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "reviewed": true,
+    "difference_reason": "原文代表例是菜单横线与关闭叉号互变；当前图标对不同。"
+  },
+  "M49": {
+    "scenes": [
+      "filter",
+      "remove",
+      "sort",
+      "expand",
+      "grid"
+    ],
+    "variants": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "conflicts": [],
+    "reviewed": true
+  },
+  "M50": {
+    "scenes": [
+      "list",
+      "product",
+      "music"
+    ],
+    "variants": [
+      0,
+      2
+    ],
+    "conflicts": [],
+    "reviewed": true,
+    "difference_reason": "原文代表例让主图和标题一起进入详情并返回；当前选择只共享其中一种元素或使用全屏预览。"
+  },
+  "M51": {
+    "scenes": [
+      "portfolio",
+      "brand",
+      "app",
+      "story"
+    ],
+    "variants": [
+      1,
+      2
+    ],
+    "conflicts": [
+      0,
+      3,
+      4
+    ],
+    "reviewed": true,
+    "difference_reason": "原文代表例是右侧进入与返回反向；当前选择使用纯淡化、色幕或缩放。"
+  },
+  "M52": {
+    "scenes": [
+      "recognize",
+      "loading",
+      "complete",
+      "recover"
+    ],
+    "variants": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "conflicts": [],
+    "reviewed": true
+  },
+  "M53": {
+    "scenes": [
+      "button",
+      "link",
+      "drag",
+      "expand",
+      "input"
+    ],
+    "variants": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "conflicts": [],
+    "reviewed": true
+  },
+  "M54": {
+    "scenes": [
+      "primary",
+      "open",
+      "keyboard",
+      "close",
+      "end"
+    ],
+    "variants": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "conflicts": [],
+    "reviewed": true
+  },
+  "M55": {
+    "scenes": [
+      "parallax",
+      "slide",
+      "loop",
+      "trail",
+      "sequence",
+      "feedback"
+    ],
+    "variants": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "conflicts": [],
+    "reviewed": true
+  },
+  "M56": {
+    "scenes": [
+      "hover",
+      "expand",
+      "sort",
+      "pointer",
+      "swipe"
+    ],
+    "variants": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "conflicts": [],
+    "reviewed": true
+  }
+}

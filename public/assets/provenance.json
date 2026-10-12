@@ -1,0 +1,68 @@
+{
+  "assets": [
+    {
+      "file": "alpine-lake.webp",
+      "sha256": "beb9e326eb03d77ea60a6b5a6c277e922dc3eaeef23fe98942d69e9b9ef06479",
+      "bytes": 154194,
+      "source": "OpenAI imagegen; original generated demo asset",
+      "license": "Generated for this requested project; no third-party logo"
+    },
+    {
+      "file": "travel-camera.webp",
+      "sha256": "d5056974c3969dbe88736d4abed9ce73a203899d87c2a9bc0f8261ece6dbc651",
+      "bytes": 57380,
+      "source": "OpenAI imagegen; original generated demo asset",
+      "license": "Generated for this requested project; no third-party logo"
+    },
+    {
+      "file": "friendly-robot.webp",
+      "sha256": "abdb88bb187b64ae977ba824642b38959f8a6ebcfda976be2a1ec709baabb9ef",
+      "bytes": 76510,
+      "source": "OpenAI imagegen; original generated demo asset",
+      "license": "Generated for this requested project; no third-party logo"
+    },
+    {
+      "file": "author.webp",
+      "sha256": "b0e42478e55ab96c53164aa2902bddf4e76078a47d3756ff62a9f6e0fc23c1a4",
+      "bytes": 11796,
+      "source": "Author public X avatar; see author-attribution.json",
+      "license": "Public author profile attribution only; no ownership claim"
+    }
+  ],
+  "icons": {
+    "source": "@phosphor-icons/react",
+    "license": "MIT",
+    "url": "https://phosphoricons.com/"
+  },
+  "glyphs": {
+    "source": "DejaVu Sans Bold",
+    "licenseFile": "glyph-morph-LICENSE.txt"
+  },
+  "map": {
+    "source": "Natural Earth / world-atlas",
+    "license": "Public domain"
+  },
+  "sequence": {
+    "method": "48 frames rendered from original Three.js scene or generated source WebP, encoded WebP, loaded on demand"
+  },
+  "modelComparison": {
+    "active": "current",
+    "otherModels": "not generated",
+    "sharedAssetAndInitialState": true
+  },
+  "scene_geometry_update": {
+    "date": "2026-10-02",
+    "models": [
+      "camera",
+      "car",
+      "phone",
+      "clothing",
+      "shoe",
+      "robot",
+      "game collectible"
+    ],
+    "origin": "Original procedural Three.js geometry authored for the requested applicable-scene demos",
+    "renderer": "Three SVGRenderer CPU projection; sequence views rasterized to48 WebP frames",
+    "licensing": "Original geometry; Three.js MIT; no external model API"
+  }
+}
